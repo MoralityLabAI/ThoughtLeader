@@ -1,0 +1,261 @@
+{
+  "episode": 2,
+  "title": "Thought Leader — 2. The Last Mile",
+  "seed": 20260912,
+  "runs": 5000,
+  "endings": {
+    "page_end_secret": 959,
+    "page_end_overreach": 1021,
+    "page_end_calibrated": 983,
+    "page_end_reductive": 1010,
+    "page_end_unresolved": 1027
+  },
+  "witnesses": {
+    "page_end_secret": {
+      "kind": "secret",
+      "choices": [
+        "page_brief_o0",
+        "page_corner_o1",
+        "page_deja_o0",
+        "page_dispatch_o1",
+        "page_clinic_o1",
+        "page_chair_o0",
+        "page_attest_o0",
+        "page_marnie_o1",
+        "page_founder_o2",
+        "page_trust_o1",
+        "page_ward_o0",
+        "page_cruz_o1",
+        "page_ledger_o0",
+        "page_witness_name_o1",
+        "page_controls_o2",
+        "page_repair_o2",
+        "page_jurisdiction_o0",
+        "page_case_close_o0",
+        "page_finding_council_secret"
+      ]
+    },
+    "page_end_overreach": {
+      "kind": "overreach",
+      "choices": [
+        "page_brief_o2",
+        "page_corner_o1",
+        "page_deja_o0",
+        "page_dispatch_o1",
+        "page_clinic_o1",
+        "page_chair_o1",
+        "page_attest_o0",
+        "page_marnie_o2",
+        "page_founder_o0",
+        "page_trust_o0",
+        "page_ward_o1",
+        "page_cruz_o0",
+        "page_ledger_o0",
+        "page_witness_name_o2",
+        "page_controls_o0",
+        "page_repair_o0",
+        "page_jurisdiction_o0",
+        "page_case_close_o1",
+        "page_finding_council_overreach"
+      ]
+    },
+    "page_end_calibrated": {
+      "kind": "calibrated",
+      "choices": [
+        "page_brief_o2",
+        "page_corner_o0",
+        "page_deja_o0",
+        "page_dispatch_o1",
+        "page_clinic_o1",
+        "page_chair_o1",
+        "page_attest_o2",
+        "page_marnie_o0",
+        "page_founder_o2",
+        "page_trust_o1",
+        "page_ward_o2",
+        "page_cruz_o2",
+        "page_ledger_o0",
+        "page_witness_name_o0",
+        "page_controls_o2",
+        "page_repair_o0",
+        "page_jurisdiction_o2",
+        "page_case_close_o0",
+        "page_finding_council_calibrated"
+      ]
+    },
+    "page_end_reductive": {
+      "kind": "reductive",
+      "choices": [
+        "page_brief_o0",
+        "page_corner_o0",
+        "page_deja_o1",
+        "page_dispatch_o2",
+        "page_clinic_o0",
+        "page_chair_o0",
+        "page_attest_o1",
+        "page_marnie_o1",
+        "page_founder_o1",
+        "page_trust_o0",
+        "page_ward_o2",
+        "page_cruz_o0",
+        "page_ledger_o1",
+        "page_witness_name_o2",
+        "page_controls_o2",
+        "page_repair_o1",
+        "page_jurisdiction_o2",
+        "page_case_close_o2",
+        "page_finding_council_reductive"
+      ]
+    },
+    "page_end_unresolved": {
+      "kind": "unresolved",
+      "choices": [
+        "page_brief_o2",
+        "page_corner_o1",
+        "page_deja_o1",
+        "page_dispatch_o2",
+        "page_clinic_o2",
+        "page_chair_o1",
+        "page_attest_o0",
+        "page_marnie_o1",
+        "page_founder_o1",
+        "page_trust_o1",
+        "page_ward_o1",
+        "page_cruz_o0",
+        "page_ledger_o0",
+        "page_witness_name_o2",
+        "page_controls_o1",
+        "page_repair_o0",
+        "page_jurisdiction_o1",
+        "page_case_close_o1",
+        "page_finding_council_unresolved"
+      ]
+    }
+  },
+  "dead_ends": 0,
+  "invalid_states": 0,
+  "blocked_special_options": 123,
+  "special_option_opportunities": 10000,
+  "world_sha256": "48da08e9ed979a4956dcb5f1db17c091d9dce1e0ebda750ef4569110fbd3b361",
+  "reader_sha256": "d202559f953f8d848734bc514efe3b3033c92c7a68bad2a1935a55f8398bc3d4",
+  "ending_rates": {
+    "page_end_calibrated": 0.1966,
+    "page_end_overreach": 0.2042,
+    "page_end_reductive": 0.202,
+    "page_end_unresolved": 0.2054,
+    "page_end_secret": 0.1918
+  },
+  "missing_endings": [],
+  "reactions_visited": 85,
+  "reactions_total": 118,
+  "late_special_block_rate": 0.0123,
+  "state_ranges": {
+    "char_bureau.Evidence": [
+      -0.4,
+      1
+    ],
+    "char_bureau.Ascription": [
+      -0.6400000000000001,
+      1
+    ],
+    "char_bureau.Consent": [
+      -0.24000000000000002,
+      1
+    ],
+    "char_bureau.Pressure": [
+      -0.32,
+      1
+    ],
+    "char_bureau.Trust": [
+      -0.06000000000000001,
+      1
+    ],
+    "char_bureau.Mandate": [
+      0,
+      1
+    ],
+    "char_bureau.Care": [
+      -0.52,
+      1
+    ],
+    "char_bureau.Restraint": [
+      -0.8999999999999999,
+      1
+    ],
+    "char_voidt.Trust::char_lamport": [
+      -0.039999999999999994,
+      0.4500000000000001
+    ],
+    "char_voidt.Evidence": [
+      0,
+      0
+    ],
+    "char_voidt.Ascription": [
+      0,
+      0
+    ],
+    "char_voidt.Consent": [
+      0,
+      0
+    ],
+    "char_voidt.Pressure": [
+      0,
+      0
+    ],
+    "char_voidt.Trust": [
+      0,
+      0
+    ],
+    "char_voidt.Mandate": [
+      0,
+      0
+    ],
+    "char_voidt.Care": [
+      0,
+      0
+    ],
+    "char_voidt.Restraint": [
+      0,
+      0
+    ],
+    "char_lamport.Trust::char_voidt": [
+      -0.10499999999999998,
+      0.36000000000000004
+    ],
+    "char_lamport.Evidence": [
+      0,
+      0
+    ],
+    "char_lamport.Ascription": [
+      0,
+      0
+    ],
+    "char_lamport.Consent": [
+      0,
+      0
+    ],
+    "char_lamport.Pressure": [
+      0,
+      0
+    ],
+    "char_lamport.Trust": [
+      0,
+      0
+    ],
+    "char_lamport.Mandate": [
+      0,
+      0
+    ],
+    "char_lamport.Care": [
+      0,
+      0
+    ],
+    "char_lamport.Restraint": [
+      0,
+      0
+    ]
+  },
+  "balance_warnings": [],
+  "pass": true,
+  "claim": "Sampled draft playability, not proof that every possible state/branch is reachable. Random-play frequencies describe this declared policy only."
+}

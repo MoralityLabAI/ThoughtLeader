@@ -1,0 +1,261 @@
+{
+  "episode": 4,
+  "title": "Thought Leader — 4. The Reply Guys",
+  "seed": 20260914,
+  "runs": 5000,
+  "endings": {
+    "page_end_overreach": 1143,
+    "page_end_reductive": 1101,
+    "page_end_calibrated": 880,
+    "page_end_secret_exit": 788,
+    "page_end_unresolved": 1088
+  },
+  "witnesses": {
+    "page_end_overreach": {
+      "kind": "overreach",
+      "choices": [
+        "page_complaint_o1",
+        "page_evan_o1",
+        "page_welfare_o0",
+        "page_dashboard_o0",
+        "page_group_o1",
+        "page_proprietor_o0",
+        "page_comparison_o0",
+        "page_target_o2",
+        "page_moderator_o0",
+        "page_jonah_return_o0",
+        "page_owen_second_o0",
+        "page_order_o0",
+        "page_rollout_o2",
+        "page_ownership_o0",
+        "page_notice_o2",
+        "page_accounts_o1",
+        "page_return_visit_o1",
+        "page_finding_o1",
+        "page_finding_council_overreach"
+      ]
+    },
+    "page_end_reductive": {
+      "kind": "reductive",
+      "choices": [
+        "page_complaint_o2",
+        "page_evan_o1",
+        "page_welfare_o1",
+        "page_dashboard_o2",
+        "page_group_o1",
+        "page_proprietor_o2",
+        "page_comparison_o0",
+        "page_target_o1",
+        "page_moderator_o0",
+        "page_jonah_return_o1",
+        "page_owen_second_o0",
+        "page_order_o1",
+        "page_rollout_o2",
+        "page_ownership_o1",
+        "page_notice_o1",
+        "page_accounts_o1",
+        "page_return_visit_o2",
+        "page_finding_o0",
+        "page_finding_council_reductive"
+      ]
+    },
+    "page_end_calibrated": {
+      "kind": "calibrated",
+      "choices": [
+        "page_complaint_o0",
+        "page_evan_o1",
+        "page_welfare_o1",
+        "page_dashboard_o1",
+        "page_group_o2",
+        "page_proprietor_o2",
+        "page_comparison_o0",
+        "page_target_o0",
+        "page_moderator_o1",
+        "page_jonah_return_o0",
+        "page_owen_second_o0",
+        "page_order_o2",
+        "page_rollout_o2",
+        "page_ownership_o0",
+        "page_notice_o0",
+        "page_accounts_o2",
+        "page_return_visit_o0",
+        "page_finding_o2",
+        "page_finding_council_calibrated"
+      ]
+    },
+    "page_end_secret_exit": {
+      "kind": "secret",
+      "choices": [
+        "page_complaint_o1",
+        "page_evan_o2",
+        "page_welfare_o1",
+        "page_dashboard_o0",
+        "page_group_o1",
+        "page_proprietor_o0",
+        "page_comparison_o2",
+        "page_target_o1",
+        "page_moderator_o1",
+        "page_jonah_return_o0",
+        "page_owen_second_o1",
+        "page_order_o1",
+        "page_rollout_o0",
+        "page_ownership_o0",
+        "page_notice_o2",
+        "page_accounts_o1",
+        "page_return_visit_o1",
+        "page_finding_o1",
+        "page_finding_council_secret"
+      ]
+    },
+    "page_end_unresolved": {
+      "kind": "unresolved",
+      "choices": [
+        "page_complaint_o1",
+        "page_evan_o2",
+        "page_welfare_o2",
+        "page_dashboard_o1",
+        "page_group_o2",
+        "page_proprietor_o0",
+        "page_comparison_o0",
+        "page_target_o2",
+        "page_moderator_o0",
+        "page_jonah_return_o1",
+        "page_owen_second_o0",
+        "page_order_o2",
+        "page_rollout_o0",
+        "page_ownership_o0",
+        "page_notice_o0",
+        "page_accounts_o2",
+        "page_return_visit_o2",
+        "page_finding_o0",
+        "page_finding_council_unresolved"
+      ]
+    }
+  },
+  "dead_ends": 0,
+  "invalid_states": 0,
+  "blocked_special_options": 1674,
+  "special_option_opportunities": 10000,
+  "world_sha256": "5250be852fd3dc8f5c54f4d79779cc4c17c78f821a665e2e8977f415e02e48ef",
+  "reader_sha256": "d202559f953f8d848734bc514efe3b3033c92c7a68bad2a1935a55f8398bc3d4",
+  "ending_rates": {
+    "page_end_calibrated": 0.176,
+    "page_end_overreach": 0.2286,
+    "page_end_reductive": 0.2202,
+    "page_end_unresolved": 0.2176,
+    "page_end_secret_exit": 0.1576
+  },
+  "missing_endings": [],
+  "reactions_visited": 107,
+  "reactions_total": 118,
+  "late_special_block_rate": 0.1674,
+  "state_ranges": {
+    "char_bureau.Evidence": [
+      -0.76,
+      1
+    ],
+    "char_bureau.Ascription": [
+      -0.64,
+      1
+    ],
+    "char_bureau.Consent": [
+      -0.8200000000000002,
+      1
+    ],
+    "char_bureau.Pressure": [
+      -0.78,
+      1
+    ],
+    "char_bureau.Trust": [
+      -0.3600000000000001,
+      1
+    ],
+    "char_bureau.Mandate": [
+      -0.7600000000000001,
+      1
+    ],
+    "char_bureau.Care": [
+      -0.32,
+      1
+    ],
+    "char_bureau.Restraint": [
+      -0.7200000000000001,
+      1
+    ],
+    "char_voidt.Trust::char_lamport": [
+      -0.18499999999999997,
+      0.4500000000000001
+    ],
+    "char_voidt.Evidence": [
+      0,
+      0
+    ],
+    "char_voidt.Ascription": [
+      0,
+      0
+    ],
+    "char_voidt.Consent": [
+      0,
+      0
+    ],
+    "char_voidt.Pressure": [
+      0,
+      0
+    ],
+    "char_voidt.Trust": [
+      0,
+      0
+    ],
+    "char_voidt.Mandate": [
+      0,
+      0
+    ],
+    "char_voidt.Care": [
+      0,
+      0
+    ],
+    "char_voidt.Restraint": [
+      0,
+      0
+    ],
+    "char_lamport.Trust::char_voidt": [
+      -0.26999999999999996,
+      0.36000000000000004
+    ],
+    "char_lamport.Evidence": [
+      0,
+      0
+    ],
+    "char_lamport.Ascription": [
+      0,
+      0
+    ],
+    "char_lamport.Consent": [
+      0,
+      0
+    ],
+    "char_lamport.Pressure": [
+      0,
+      0
+    ],
+    "char_lamport.Trust": [
+      0,
+      0
+    ],
+    "char_lamport.Mandate": [
+      0,
+      0
+    ],
+    "char_lamport.Care": [
+      0,
+      0
+    ],
+    "char_lamport.Restraint": [
+      0,
+      0
+    ]
+  },
+  "balance_warnings": [],
+  "pass": true,
+  "claim": "Sampled draft playability, not proof that every possible state/branch is reachable. Random-play frequencies describe this declared policy only."
+}

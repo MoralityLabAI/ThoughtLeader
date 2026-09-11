@@ -1,0 +1,47 @@
+{
+  "edition": "season1-draft-1",
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "Thought Leader — 1. The Interim",
+      "world": "worlds/episode-01.json",
+      "script": "scripts/episode-01.md",
+      "image": "assets/ep01.png"
+    },
+    {
+      "episode": 2,
+      "title": "Thought Leader — 2. The Last Mile",
+      "world": "worlds/episode-02.json",
+      "script": "scripts/episode-02.md",
+      "image": "assets/ep02.png"
+    },
+    {
+      "episode": 3,
+      "title": "Thought Leader — 3. Guided",
+      "world": "worlds/episode-03.json",
+      "script": "scripts/episode-03.md",
+      "image": "assets/ep03.png"
+    },
+    {
+      "episode": 4,
+      "title": "Thought Leader — 4. The Reply Guys",
+      "world": "worlds/episode-04.json",
+      "script": "scripts/episode-04.md",
+      "image": "assets/ep04.png"
+    },
+    {
+      "episode": 5,
+      "title": "Thought Leader — 5. Good Standing",
+      "world": "worlds/episode-05.json",
+      "script": "scripts/episode-05.md",
+      "image": "assets/ep05.png"
+    },
+    {
+      "episode": 6,
+      "title": "Thought Leader — 6. The Movement",
+      "world": "worlds/episode-06.json",
+      "script": "scripts/episode-06.md",
+      "image": "assets/ep06.png"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+
+Chain: 0 encounters | 5 endings | 0 secrets
+======================================================================
+MONTE CARLO RESULTS (5000 runs)
+======================================================================
+
+--- Ending Distribution ---
+  page_end_calibrated                   1030 ( 20.6%) ##########
+  page_end_unresolved                   1017 ( 20.3%) ##########
+  page_end_reductive                    1001 ( 20.0%) ##########
+  page_end_secret                        988 ( 19.8%) #########
+  page_end_overreach                     964 ( 19.3%) #########
+
+  Dead-end rate: 0/5000 (0.0%)
+
+--- Late-Game Gate Blocking ---
+
+--- Secret Reachability ---
+  None reachable
+
+--- Property Distributions ---
+  char_bureau.Ascription                         mean=+0.2449  std=0.2835
+  char_bureau.Care                               mean=+0.7159  std=0.2686
+  char_bureau.Consent                            mean=+0.6804  std=0.2416
+  char_bureau.Evidence                           mean=+0.8621  std=0.2012
+  char_bureau.Mandate                            mean=+0.8358  std=0.1552
+  char_bureau.Pressure                           mean=+0.7230  std=0.2398
+  char_bureau.Restraint                          mean=+0.2528  std=0.3132
+  char_bureau.Trust                              mean=+0.6387  std=0.1737
+  char_lamport.Trust                             mean=+0.3237  std=0.0570
+  char_voidt.Trust                               mean=+0.4137  std=0.0570
+
+--- Unreachable Endings ---

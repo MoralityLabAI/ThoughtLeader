@@ -1,0 +1,237 @@
+{
+  "checks": [
+    {
+      "name": "options_per_encounter",
+      "actual": 3.1053,
+      "target": 3.2,
+      "pass": false
+    },
+    {
+      "name": "reactions_per_option",
+      "actual": 2.0,
+      "target": 2.5,
+      "pass": false
+    },
+    {
+      "name": "effects_per_reaction",
+      "actual": 6.4237,
+      "target": 4.5,
+      "pass": true
+    },
+    {
+      "name": "desirability_vars_per_reaction",
+      "actual": 3.0,
+      "target": 1.6,
+      "pass": true
+    },
+    {
+      "name": "avg_encounter_words",
+      "actual": 104.2632,
+      "target": 50.0,
+      "pass": true
+    },
+    {
+      "name": "avg_reaction_words",
+      "actual": 27.7458,
+      "target": 20.0,
+      "pass": true
+    },
+    {
+      "name": "pvalue_refs",
+      "actual": 668.0,
+      "target": 1.0,
+      "pass": true
+    },
+    {
+      "name": "p2value_refs",
+      "actual": 0.0,
+      "target": 1.0,
+      "pass": false
+    },
+    {
+      "name": "visibility_gated_options_pct",
+      "actual": 3.3898,
+      "target": 3.0,
+      "pass": true
+    },
+    {
+      "name": "desirability_operator_variety",
+      "actual": 4.0,
+      "target": 3.0,
+      "pass": true
+    },
+    {
+      "name": "effect_operator_variety",
+      "actual": 1.0,
+      "target": 2.0,
+      "pass": false
+    },
+    {
+      "name": "desirability_operator_dominance",
+      "actual": 0.662,
+      "target": 0.9,
+      "pass": true
+    },
+    {
+      "name": "effect_operator_dominance",
+      "actual": 1.0,
+      "target": 0.92,
+      "pass": false
+    },
+    {
+      "name": "effect_nonconstant_ratio",
+      "actual": 1.0,
+      "target": 0.999,
+      "pass": true
+    },
+    {
+      "name": "desirability_nonconstant_ratio",
+      "actual": 1.0,
+      "target": 0.999,
+      "pass": true
+    },
+    {
+      "name": "effect_script_complexity",
+      "actual": 1.0,
+      "target": 1.2,
+      "pass": false
+    },
+    {
+      "name": "desirability_script_complexity",
+      "actual": 6.0,
+      "target": 1.2,
+      "pass": true
+    },
+    {
+      "name": "option_visibility_nonconstant_ratio",
+      "actual": 0.0339,
+      "target": 0.03,
+      "pass": true
+    },
+    {
+      "name": "option_visibility_complexity",
+      "actual": 0.0847,
+      "target": 0.6,
+      "pass": false
+    },
+    {
+      "name": "option_performability_nonconstant_ratio",
+      "actual": 0.0339,
+      "target": 0.03,
+      "pass": true
+    },
+    {
+      "name": "option_performability_complexity",
+      "actual": 0.0847,
+      "target": 0.6,
+      "pass": false
+    },
+    {
+      "name": "encounter_acceptability_nonconstant_ratio",
+      "actual": 0.0,
+      "target": 0.2,
+      "pass": false
+    },
+    {
+      "name": "ending_reachability_balance",
+      "actual": 1.0,
+      "target": 0.19,
+      "pass": true
+    },
+    {
+      "name": "secret_reachability_balance",
+      "actual": 1.0,
+      "target": 0.12,
+      "pass": true
+    },
+    {
+      "name": "super_secret_reachability",
+      "actual": 0.0,
+      "target": 0.25,
+      "pass": false
+    },
+    {
+      "name": "encounter_desirability_nonconstant_ratio",
+      "actual": 1.0,
+      "target": 0.2,
+      "pass": true
+    },
+    {
+      "name": "encounter_desirability_complexity",
+      "actual": 0.75,
+      "target": 0.5,
+      "pass": true
+    },
+    {
+      "name": "validator_errors",
+      "actual": 0,
+      "target": 0,
+      "pass": true
+    }
+  ],
+  "pass": false,
+  "failures": [
+    "options_per_encounter",
+    "reactions_per_option",
+    "p2value_refs",
+    "effect_operator_variety",
+    "effect_operator_dominance",
+    "effect_script_complexity",
+    "option_visibility_complexity",
+    "option_performability_complexity",
+    "encounter_acceptability_nonconstant_ratio",
+    "super_secret_reachability"
+  ],
+  "summary": {
+    "encounters": 24,
+    "avg_encounter_words": 104.26,
+    "avg_reaction_words": 27.75,
+    "avg_desirability_vars": 3.0,
+    "pvalue_refs": 668,
+    "p2value_refs": 0,
+    "gated_options_pct": 3.39,
+    "desirability_operator_variety": 4,
+    "effect_operator_variety": 1,
+    "desirability_operator_dominance": 0.662,
+    "effect_operator_dominance": 1.0,
+    "effect_nonconstant_ratio": 1.0,
+    "desirability_nonconstant_ratio": 1.0,
+    "option_visibility_nonconstant_ratio": 0.0339,
+    "option_performability_nonconstant_ratio": 0.0339,
+    "encounter_acceptability_nonconstant_ratio": 0.0,
+    "encounter_desirability_nonconstant_ratio": 1.0
+  },
+  "operator_counts": {
+    "desirability": {
+      "Addition": 236,
+      "Multiplication": 472,
+      "Arithmetic Comparator": 4,
+      "And": 1
+    },
+    "effects": {
+      "Nudge": 758
+    }
+  },
+  "polish_metrics": {
+    "effects_per_reaction": 6.423728813559322,
+    "reactions_per_option": 2.0,
+    "options_per_encounter": 3.1052631578947367,
+    "desirability_vars_avg": 3.0,
+    "act2": [
+      0.0,
+      0.0,
+      18,
+      0
+    ],
+    "act3": [
+      8.695652173913043,
+      2.0,
+      23,
+      2
+    ],
+    "super_secret_access_pct": 0.0,
+    "secret_checks": []
+  },
+  "validator_errors": [],
+  "interpretation": "Unmodified upstream late-polish gate; failures are not hidden. This delivery targets the documented compact draft profile."
+}

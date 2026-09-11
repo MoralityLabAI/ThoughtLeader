@@ -1,0 +1,261 @@
+{
+  "episode": 5,
+  "title": "Thought Leader — 5. Good Standing",
+  "seed": 20260915,
+  "runs": 5000,
+  "endings": {
+    "page_end_calibrated": 888,
+    "page_end_overreach": 1104,
+    "page_end_reductive": 1171,
+    "page_end_unresolved": 1077,
+    "page_end_secret_borrowed_violence": 760
+  },
+  "witnesses": {
+    "page_end_calibrated": {
+      "kind": "calibrated",
+      "choices": [
+        "page_diner_o0",
+        "page_two_boards_o1",
+        "page_rook_o0",
+        "page_mara_o0",
+        "page_penn_o0",
+        "page_score_o0",
+        "page_notebook_o1",
+        "page_renewal_o0",
+        "page_quist_o0",
+        "page_audit_o0",
+        "page_loop_o2",
+        "page_discovery_o0",
+        "page_chalk_o0",
+        "page_source_safety_o1",
+        "page_rook_answer_o1",
+        "page_jurisdictions_o1",
+        "page_charging_o0",
+        "page_joint_o2",
+        "page_finding_council_calibrated"
+      ]
+    },
+    "page_end_overreach": {
+      "kind": "overreach",
+      "choices": [
+        "page_diner_o1",
+        "page_two_boards_o1",
+        "page_rook_o2",
+        "page_mara_o0",
+        "page_penn_o0",
+        "page_score_o2",
+        "page_notebook_o1",
+        "page_renewal_o1",
+        "page_quist_o1",
+        "page_audit_o1",
+        "page_loop_o1",
+        "page_discovery_o2",
+        "page_chalk_o2",
+        "page_source_safety_o1",
+        "page_rook_answer_o2",
+        "page_jurisdictions_o0",
+        "page_charging_o0",
+        "page_joint_o0",
+        "page_finding_council_overreach"
+      ]
+    },
+    "page_end_reductive": {
+      "kind": "reductive",
+      "choices": [
+        "page_diner_o2",
+        "page_two_boards_o2",
+        "page_rook_o2",
+        "page_mara_o0",
+        "page_penn_o0",
+        "page_score_o1",
+        "page_notebook_o2",
+        "page_renewal_o0",
+        "page_quist_o0",
+        "page_audit_o0",
+        "page_loop_o1",
+        "page_discovery_o1",
+        "page_chalk_o0",
+        "page_source_safety_o0",
+        "page_rook_answer_o0",
+        "page_jurisdictions_o0",
+        "page_charging_o1",
+        "page_joint_o2",
+        "page_finding_council_reductive"
+      ]
+    },
+    "page_end_unresolved": {
+      "kind": "unresolved",
+      "choices": [
+        "page_diner_o2",
+        "page_two_boards_o1",
+        "page_rook_o0",
+        "page_mara_o0",
+        "page_penn_o2",
+        "page_score_o2",
+        "page_notebook_o1",
+        "page_renewal_o1",
+        "page_quist_o1",
+        "page_audit_o1",
+        "page_loop_o0",
+        "page_discovery_o2",
+        "page_chalk_o2",
+        "page_source_safety_o1",
+        "page_rook_answer_o1",
+        "page_jurisdictions_o2",
+        "page_charging_o1",
+        "page_joint_o0",
+        "page_finding_council_unresolved"
+      ]
+    },
+    "page_end_secret_borrowed_violence": {
+      "kind": "secret",
+      "choices": [
+        "page_diner_o2",
+        "page_two_boards_o2",
+        "page_rook_o2",
+        "page_mara_o1",
+        "page_penn_o2",
+        "page_score_o0",
+        "page_notebook_o1",
+        "page_renewal_o0",
+        "page_quist_o1",
+        "page_audit_o0",
+        "page_loop_o0",
+        "page_discovery_o0",
+        "page_chalk_o2",
+        "page_source_safety_o1",
+        "page_rook_answer_o0",
+        "page_jurisdictions_o2",
+        "page_charging_o1",
+        "page_joint_o0",
+        "page_finding_council_secret"
+      ]
+    }
+  },
+  "dead_ends": 0,
+  "invalid_states": 0,
+  "blocked_special_options": 2336,
+  "special_option_opportunities": 10000,
+  "world_sha256": "a61fac8c1f61245be7a6af1c89fad749d6a113dcf544294109f5a42c219ae691",
+  "reader_sha256": "d202559f953f8d848734bc514efe3b3033c92c7a68bad2a1935a55f8398bc3d4",
+  "ending_rates": {
+    "page_end_calibrated": 0.1776,
+    "page_end_overreach": 0.2208,
+    "page_end_reductive": 0.2342,
+    "page_end_unresolved": 0.2154,
+    "page_end_secret_borrowed_violence": 0.152
+  },
+  "missing_endings": [],
+  "reactions_visited": 109,
+  "reactions_total": 118,
+  "late_special_block_rate": 0.2336,
+  "state_ranges": {
+    "char_bureau.Evidence": [
+      -1,
+      1
+    ],
+    "char_bureau.Ascription": [
+      -1,
+      0.9
+    ],
+    "char_bureau.Consent": [
+      -0.9400000000000001,
+      1
+    ],
+    "char_bureau.Pressure": [
+      -0.89,
+      1
+    ],
+    "char_bureau.Trust": [
+      -0.16,
+      1
+    ],
+    "char_bureau.Mandate": [
+      -0.7400000000000001,
+      1
+    ],
+    "char_bureau.Care": [
+      -0.56,
+      1
+    ],
+    "char_bureau.Restraint": [
+      -0.44,
+      1
+    ],
+    "char_voidt.Trust::char_lamport": [
+      -0.18,
+      0.4500000000000001
+    ],
+    "char_voidt.Evidence": [
+      0,
+      0
+    ],
+    "char_voidt.Ascription": [
+      0,
+      0
+    ],
+    "char_voidt.Consent": [
+      0,
+      0
+    ],
+    "char_voidt.Pressure": [
+      0,
+      0
+    ],
+    "char_voidt.Trust": [
+      0,
+      0
+    ],
+    "char_voidt.Mandate": [
+      0,
+      0
+    ],
+    "char_voidt.Care": [
+      0,
+      0
+    ],
+    "char_voidt.Restraint": [
+      0,
+      0
+    ],
+    "char_lamport.Trust::char_voidt": [
+      -0.26999999999999996,
+      0.36000000000000004
+    ],
+    "char_lamport.Evidence": [
+      0,
+      0
+    ],
+    "char_lamport.Ascription": [
+      0,
+      0
+    ],
+    "char_lamport.Consent": [
+      0,
+      0
+    ],
+    "char_lamport.Pressure": [
+      0,
+      0
+    ],
+    "char_lamport.Trust": [
+      0,
+      0
+    ],
+    "char_lamport.Mandate": [
+      0,
+      0
+    ],
+    "char_lamport.Care": [
+      0,
+      0
+    ],
+    "char_lamport.Restraint": [
+      0,
+      0
+    ]
+  },
+  "balance_warnings": [],
+  "pass": true,
+  "claim": "Sampled draft playability, not proof that every possible state/branch is reachable. Random-play frequencies describe this declared policy only."
+}

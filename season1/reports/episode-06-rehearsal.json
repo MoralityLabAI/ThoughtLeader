@@ -1,0 +1,261 @@
+{
+  "episode": 6,
+  "title": "Thought Leader — 6. The Movement",
+  "seed": 20260916,
+  "runs": 5000,
+  "endings": {
+    "page_end_calibrated": 782,
+    "page_end_unresolved": 1188,
+    "page_end_secret_amendment": 725,
+    "page_end_overreach": 1160,
+    "page_end_reductive": 1145
+  },
+  "witnesses": {
+    "page_end_calibrated": {
+      "kind": "calibrated",
+      "choices": [
+        "page_morning_vote_o1",
+        "page_remit_o1",
+        "page_volunteers_o1",
+        "page_treasurer_o2",
+        "page_housing_o2",
+        "page_candidate_o0",
+        "page_chorus_o1",
+        "page_minority_o1",
+        "page_reporter_o2",
+        "page_cooling_o0",
+        "page_amendment_o0",
+        "page_replay_o2",
+        "page_archive_o0",
+        "page_debate_o1",
+        "page_evening_o2",
+        "page_future_o1",
+        "page_polls_o1",
+        "page_final_review_o1",
+        "page_finding_council_calibrated"
+      ]
+    },
+    "page_end_unresolved": {
+      "kind": "unresolved",
+      "choices": [
+        "page_morning_vote_o1",
+        "page_remit_o1",
+        "page_volunteers_o0",
+        "page_treasurer_o0",
+        "page_housing_o0",
+        "page_candidate_o0",
+        "page_chorus_o0",
+        "page_minority_o0",
+        "page_reporter_o0",
+        "page_cooling_o1",
+        "page_amendment_o2",
+        "page_replay_o2",
+        "page_archive_o1",
+        "page_debate_o0",
+        "page_evening_o2",
+        "page_future_o0",
+        "page_polls_o2",
+        "page_final_review_o1",
+        "page_finding_council_unresolved"
+      ]
+    },
+    "page_end_secret_amendment": {
+      "kind": "secret",
+      "choices": [
+        "page_morning_vote_o1",
+        "page_remit_o2",
+        "page_volunteers_o2",
+        "page_treasurer_o1",
+        "page_housing_o0",
+        "page_candidate_o0",
+        "page_chorus_o2",
+        "page_minority_o0",
+        "page_reporter_o1",
+        "page_cooling_o2",
+        "page_amendment_o0",
+        "page_replay_o2",
+        "page_archive_o1",
+        "page_debate_o2",
+        "page_evening_o0",
+        "page_future_o1",
+        "page_polls_o0",
+        "page_final_review_o1",
+        "page_finding_council_secret"
+      ]
+    },
+    "page_end_overreach": {
+      "kind": "overreach",
+      "choices": [
+        "page_morning_vote_o2",
+        "page_remit_o0",
+        "page_volunteers_o1",
+        "page_treasurer_o1",
+        "page_housing_o1",
+        "page_candidate_o0",
+        "page_chorus_o0",
+        "page_minority_o0",
+        "page_reporter_o0",
+        "page_cooling_o0",
+        "page_amendment_o0",
+        "page_replay_o0",
+        "page_archive_o0",
+        "page_debate_o2",
+        "page_evening_o0",
+        "page_future_o1",
+        "page_polls_o2",
+        "page_final_review_o2",
+        "page_finding_council_overreach"
+      ]
+    },
+    "page_end_reductive": {
+      "kind": "reductive",
+      "choices": [
+        "page_morning_vote_o2",
+        "page_remit_o2",
+        "page_volunteers_o2",
+        "page_treasurer_o2",
+        "page_housing_o0",
+        "page_candidate_o1",
+        "page_chorus_o2",
+        "page_minority_o2",
+        "page_reporter_o1",
+        "page_cooling_o0",
+        "page_amendment_o2",
+        "page_replay_o2",
+        "page_archive_o1",
+        "page_debate_o2",
+        "page_evening_o1",
+        "page_future_o0",
+        "page_polls_o2",
+        "page_final_review_o1",
+        "page_finding_council_reductive"
+      ]
+    }
+  },
+  "dead_ends": 0,
+  "invalid_states": 0,
+  "blocked_special_options": 2376,
+  "special_option_opportunities": 10000,
+  "world_sha256": "1d59b1d711bbeb404adb40f716a2df37d87e8ae42eddb80bfd36f30856ee8e45",
+  "reader_sha256": "d202559f953f8d848734bc514efe3b3033c92c7a68bad2a1935a55f8398bc3d4",
+  "ending_rates": {
+    "page_end_calibrated": 0.1564,
+    "page_end_overreach": 0.232,
+    "page_end_reductive": 0.229,
+    "page_end_unresolved": 0.2376,
+    "page_end_secret_amendment": 0.145
+  },
+  "missing_endings": [],
+  "reactions_visited": 112,
+  "reactions_total": 118,
+  "late_special_block_rate": 0.2376,
+  "state_ranges": {
+    "char_bureau.Evidence": [
+      -1,
+      1
+    ],
+    "char_bureau.Ascription": [
+      -0.84,
+      1
+    ],
+    "char_bureau.Consent": [
+      -0.58,
+      1
+    ],
+    "char_bureau.Pressure": [
+      -0.28,
+      1
+    ],
+    "char_bureau.Trust": [
+      -0.3200000000000001,
+      1
+    ],
+    "char_bureau.Mandate": [
+      -0.52,
+      1
+    ],
+    "char_bureau.Care": [
+      -0.3,
+      1
+    ],
+    "char_bureau.Restraint": [
+      -0.18,
+      1
+    ],
+    "char_voidt.Trust::char_lamport": [
+      -0.26999999999999996,
+      0.4500000000000001
+    ],
+    "char_voidt.Evidence": [
+      0,
+      0
+    ],
+    "char_voidt.Ascription": [
+      0,
+      0
+    ],
+    "char_voidt.Consent": [
+      0,
+      0
+    ],
+    "char_voidt.Pressure": [
+      0,
+      0
+    ],
+    "char_voidt.Trust": [
+      0,
+      0
+    ],
+    "char_voidt.Mandate": [
+      0,
+      0
+    ],
+    "char_voidt.Care": [
+      0,
+      0
+    ],
+    "char_voidt.Restraint": [
+      0,
+      0
+    ],
+    "char_lamport.Trust::char_voidt": [
+      -0.3600000000000001,
+      0.36000000000000004
+    ],
+    "char_lamport.Evidence": [
+      0,
+      0
+    ],
+    "char_lamport.Ascription": [
+      0,
+      0
+    ],
+    "char_lamport.Consent": [
+      0,
+      0
+    ],
+    "char_lamport.Pressure": [
+      0,
+      0
+    ],
+    "char_lamport.Trust": [
+      0,
+      0
+    ],
+    "char_lamport.Mandate": [
+      0,
+      0
+    ],
+    "char_lamport.Care": [
+      0,
+      0
+    ],
+    "char_lamport.Restraint": [
+      0,
+      0
+    ]
+  },
+  "balance_warnings": [],
+  "pass": true,
+  "claim": "Sampled draft playability, not proof that every possible state/branch is reachable. Random-play frequencies describe this declared policy only."
+}

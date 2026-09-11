@@ -1,0 +1,50 @@
+{
+  "purpose": "Unmodified upstream Python diagnostics; use season-rehearsal.json for the delivered engine.",
+  "limitations": [
+    "The upstream simulator aliases multi-element belief keyrings to their first element.",
+    "It starts with an empty state rather than initializing character properties.",
+    "Late-block counters are not implemented and its secret scan uses page_secret_, not ending_kind."
+  ],
+  "runs_per_episode": 5000,
+  "seed": 20260911,
+  "script_sha256": "07efec38c394726a769f58c16055e007281a3ff8c8bb5e3bce45edec8bb643ae",
+  "episodes": [
+    {
+      "episode": 1,
+      "exit_code": 0,
+      "world_sha256": "5c4bf8a1845e32f125d5cc72f68f5a8a6bc0d1f4417110aa477f67364c988b8b",
+      "raw_output": "episode-01-upstream-rehearsal.txt"
+    },
+    {
+      "episode": 2,
+      "exit_code": 0,
+      "world_sha256": "48da08e9ed979a4956dcb5f1db17c091d9dce1e0ebda750ef4569110fbd3b361",
+      "raw_output": "episode-02-upstream-rehearsal.txt"
+    },
+    {
+      "episode": 3,
+      "exit_code": 0,
+      "world_sha256": "2cc3652dba5fe36ae9ced6f7f269cab6ed5d1c2d48d4083d858eca2f15b10250",
+      "raw_output": "episode-03-upstream-rehearsal.txt"
+    },
+    {
+      "episode": 4,
+      "exit_code": 0,
+      "world_sha256": "5250be852fd3dc8f5c54f4d79779cc4c17c78f821a665e2e8977f415e02e48ef",
+      "raw_output": "episode-04-upstream-rehearsal.txt"
+    },
+    {
+      "episode": 5,
+      "exit_code": 0,
+      "world_sha256": "a61fac8c1f61245be7a6af1c89fad749d6a113dcf544294109f5a42c219ae691",
+      "raw_output": "episode-05-upstream-rehearsal.txt"
+    },
+    {
+      "episode": 6,
+      "exit_code": 0,
+      "world_sha256": "1d59b1d711bbeb404adb40f716a2df37d87e8ae42eddb80bfd36f30856ee8e45",
+      "raw_output": "episode-06-upstream-rehearsal.txt"
+    }
+  ],
+  "completed": true
+}

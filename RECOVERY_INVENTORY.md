@@ -2,7 +2,7 @@
 
 Inventory captured 2026-09-11 from `E:\Recovered_C_projects\Spiral_target\projects\ThoughtLeader`.
 
-> **Recovery status: corrupted.** This directory preserves a valuable filename and directory inventory, but it does not preserve usable project content. The public repository is a forensic record of the recovery, not a runnable ThoughtLeader project.
+> **Original drive recovery: corrupted.** This audit describes the original 107 files. A later search located intact playtest logs in GPTStoryworld and recovered substantial prose. The rebuilt playable draft now lives in [`season1/`](season1/README.md); the older root files remain recovery evidence.
 
 ## Byte-content audit
 
@@ -36,4 +36,10 @@ The file names indicate six intended storyworlds: the pilot and episodes 2 throu
 
 ## Repository policy
 
-The repository preserves the recovered file map and the original `.gitignore`. Local Claude permissions, Python bytecode, scratch data, the damaged ZIP, and regenerable preview images are not tracked. This inventory and the root README explain the corruption so the public repository is not mistaken for a working release.
+The repository preserves the recovered file map and the original `.gitignore`. Local Claude permissions, Python bytecode, scratch data, the damaged ZIP, and old preview images are not tracked. Newly authored draft sources, generated worlds and valid new art are tracked under `season1/`.
+
+## Subsequent recovery and reconstruction — 2026-09-11
+
+The intact local GPTStoryworld checkout contains `thoughtleader.md`, a six-episode benchmark report, and corrected/diagnostic playtest logs. A reproducible extraction recovered 469 scene records from 1,639 observations, with 743 visible options and recovered reaction text for 515 options. Those records provide substantial authored prose, but not complete original branching rules, initial state, ending text or art.
+
+The author's revised order places the new incel-forum episode fourth and the recovered organized-crime material fifth. The original school-model episode is retained as source history. See [`season1/recovery/SUMMARY.md`](season1/recovery/SUMMARY.md) and the [`authoring contract`](season1/AUTHORING_CONTRACT.md). This discovery supersedes the earlier suggestion that only the Claude ZIP provenance could lead to usable content.

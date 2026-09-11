@@ -11,3 +11,9 @@ src/sheet*.png
 src/variants*.png
 src/actualsize*.png
 scratch/*.png
+
+# Rebuilt season intermediates; authored sources and finished art are tracked.
+season1/.build/
+node_modules/
+playwright-report/
+test-results/

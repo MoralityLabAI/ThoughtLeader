@@ -1,0 +1,14 @@
+{
+  "checkout_head": "9a8ef1d3a78f8de0d53868259edf62b44986f854",
+  "working_copy_had_preexisting_changes": true,
+  "skill_sha256": "8afc8e3c76d3cc42474b5f41b5e0c6263a67490419bb90e70b0c03cd31083197",
+  "original_reader_sha256": "faee255e45f172bac5e9d38364ace411fa6a5e6093c5dd3285347ed45ba9a42f",
+  "scripts": {
+    "json_to_swmd.py": "e0b8bd6b8c4fcf269f37390e669d57a7c558e35f26b141cc40fb1abd2d19f5ff",
+    "monte_carlo_rehearsal.py": "07efec38c394726a769f58c16055e007281a3ff8c8bb5e3bce45edec8bb643ae",
+    "new_encounter.py": "6604f919a2af1725b60943ea460c8e2e20c7d5fc9f639d9c5c7b04b57c147464",
+    "polish_metrics.py": "7e6cadf6bec39d46aa57d77e2f772d12c124258e8bfb2bd7787bbaf32f43626b",
+    "storyworld_quality_gate.py": "a60a380a1f4dbca5e96f9b35d22375dfbb86e41c378a3b10bf8565f7ab8f57e0",
+    "sweepweave_validator.py": "00f060134b934d1db9d4492ef4964c460c5ff42678bf4619fe1d95c4d1194e8e"
+  }
+}

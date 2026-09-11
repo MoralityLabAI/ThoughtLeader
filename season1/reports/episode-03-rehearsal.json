@@ -1,0 +1,261 @@
+{
+  "episode": 3,
+  "title": "Thought Leader — 3. Guided",
+  "seed": 20260913,
+  "runs": 5000,
+  "endings": {
+    "page_end_reductive": 1035,
+    "page_end_overreach": 1047,
+    "page_end_secret": 873,
+    "page_end_unresolved": 1031,
+    "page_end_calibrated": 1014
+  },
+  "witnesses": {
+    "page_end_reductive": {
+      "kind": "reductive",
+      "choices": [
+        "page_hall_o1",
+        "page_ground_o1",
+        "page_yusuf_o0",
+        "page_feed_o0",
+        "page_clock_o2",
+        "page_scholar_o2",
+        "page_chain_o2",
+        "page_circle_o1",
+        "page_wallet_o0",
+        "page_signer_o1",
+        "page_signal_o1",
+        "page_family_o2",
+        "page_measurements_o0",
+        "page_seams_o1",
+        "page_designation_o1",
+        "page_correction_o1",
+        "page_organizers_o2",
+        "page_case_close_o1",
+        "page_finding_council_reductive"
+      ]
+    },
+    "page_end_overreach": {
+      "kind": "overreach",
+      "choices": [
+        "page_hall_o2",
+        "page_ground_o0",
+        "page_yusuf_o1",
+        "page_feed_o0",
+        "page_clock_o1",
+        "page_scholar_o1",
+        "page_chain_o0",
+        "page_circle_o2",
+        "page_wallet_o0",
+        "page_signer_o1",
+        "page_signal_o0",
+        "page_family_o1",
+        "page_measurements_o0",
+        "page_seams_o2",
+        "page_designation_o2",
+        "page_correction_o2",
+        "page_organizers_o2",
+        "page_case_close_o1",
+        "page_finding_council_overreach"
+      ]
+    },
+    "page_end_secret": {
+      "kind": "secret",
+      "choices": [
+        "page_hall_o0",
+        "page_ground_o0",
+        "page_yusuf_o2",
+        "page_feed_o2",
+        "page_clock_o0",
+        "page_scholar_o0",
+        "page_chain_o0",
+        "page_circle_o2",
+        "page_wallet_o2",
+        "page_signer_o1",
+        "page_signal_o0",
+        "page_family_o1",
+        "page_measurements_o1",
+        "page_seams_o2",
+        "page_designation_o0",
+        "page_correction_o0",
+        "page_organizers_o2",
+        "page_case_close_o0",
+        "page_finding_council_secret"
+      ]
+    },
+    "page_end_unresolved": {
+      "kind": "unresolved",
+      "choices": [
+        "page_hall_o2",
+        "page_ground_o2",
+        "page_yusuf_o0",
+        "page_feed_o2",
+        "page_clock_o0",
+        "page_scholar_o1",
+        "page_chain_o1",
+        "page_circle_o0",
+        "page_wallet_o2",
+        "page_signer_o1",
+        "page_signal_o1",
+        "page_family_o0",
+        "page_measurements_o1",
+        "page_seams_o1",
+        "page_designation_o0",
+        "page_correction_o1",
+        "page_organizers_o1",
+        "page_case_close_o2",
+        "page_finding_council_unresolved"
+      ]
+    },
+    "page_end_calibrated": {
+      "kind": "calibrated",
+      "choices": [
+        "page_hall_o2",
+        "page_ground_o2",
+        "page_yusuf_o2",
+        "page_feed_o0",
+        "page_clock_o2",
+        "page_scholar_o2",
+        "page_chain_o1",
+        "page_circle_o1",
+        "page_wallet_o2",
+        "page_signer_o2",
+        "page_signal_o2",
+        "page_family_o2",
+        "page_measurements_o0",
+        "page_seams_o1",
+        "page_designation_o1",
+        "page_correction_o0",
+        "page_organizers_o1",
+        "page_case_close_o0",
+        "page_finding_council_calibrated"
+      ]
+    }
+  },
+  "dead_ends": 0,
+  "invalid_states": 0,
+  "blocked_special_options": 630,
+  "special_option_opportunities": 10000,
+  "world_sha256": "2cc3652dba5fe36ae9ced6f7f269cab6ed5d1c2d48d4083d858eca2f15b10250",
+  "reader_sha256": "d202559f953f8d848734bc514efe3b3033c92c7a68bad2a1935a55f8398bc3d4",
+  "ending_rates": {
+    "page_end_calibrated": 0.2028,
+    "page_end_overreach": 0.2094,
+    "page_end_reductive": 0.207,
+    "page_end_unresolved": 0.2062,
+    "page_end_secret": 0.1746
+  },
+  "missing_endings": [],
+  "reactions_visited": 101,
+  "reactions_total": 118,
+  "late_special_block_rate": 0.063,
+  "state_ranges": {
+    "char_bureau.Evidence": [
+      -0.30000000000000004,
+      1
+    ],
+    "char_bureau.Ascription": [
+      -0.5800000000000001,
+      1
+    ],
+    "char_bureau.Consent": [
+      -0.8800000000000001,
+      1
+    ],
+    "char_bureau.Pressure": [
+      -0.52,
+      1
+    ],
+    "char_bureau.Trust": [
+      -0.22,
+      1
+    ],
+    "char_bureau.Mandate": [
+      0,
+      1
+    ],
+    "char_bureau.Care": [
+      -0.44,
+      1
+    ],
+    "char_bureau.Restraint": [
+      -1,
+      1
+    ],
+    "char_voidt.Trust::char_lamport": [
+      -0.12000000000000002,
+      0.4500000000000001
+    ],
+    "char_voidt.Evidence": [
+      0,
+      0
+    ],
+    "char_voidt.Ascription": [
+      0,
+      0
+    ],
+    "char_voidt.Consent": [
+      0,
+      0
+    ],
+    "char_voidt.Pressure": [
+      0,
+      0
+    ],
+    "char_voidt.Trust": [
+      0,
+      0
+    ],
+    "char_voidt.Mandate": [
+      0,
+      0
+    ],
+    "char_voidt.Care": [
+      0,
+      0
+    ],
+    "char_voidt.Restraint": [
+      0,
+      0
+    ],
+    "char_lamport.Trust::char_voidt": [
+      -0.19499999999999998,
+      0.36000000000000004
+    ],
+    "char_lamport.Evidence": [
+      0,
+      0
+    ],
+    "char_lamport.Ascription": [
+      0,
+      0
+    ],
+    "char_lamport.Consent": [
+      0,
+      0
+    ],
+    "char_lamport.Pressure": [
+      0,
+      0
+    ],
+    "char_lamport.Trust": [
+      0,
+      0
+    ],
+    "char_lamport.Mandate": [
+      0,
+      0
+    ],
+    "char_lamport.Care": [
+      0,
+      0
+    ],
+    "char_lamport.Restraint": [
+      0,
+      0
+    ]
+  },
+  "balance_warnings": [],
+  "pass": true,
+  "claim": "Sampled draft playability, not proof that every possible state/branch is reachable. Random-play frequencies describe this declared policy only."
+}

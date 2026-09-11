@@ -1,0 +1,261 @@
+{
+  "episode": 1,
+  "title": "Thought Leader — 1. The Interim",
+  "seed": 20260911,
+  "runs": 5000,
+  "endings": {
+    "page_end_calibrated": 1073,
+    "page_end_unresolved": 998,
+    "page_end_overreach": 980,
+    "page_end_secret": 942,
+    "page_end_reductive": 1007
+  },
+  "witnesses": {
+    "page_end_calibrated": {
+      "kind": "calibrated",
+      "choices": [
+        "page_seminar_o1",
+        "page_name_check_o1",
+        "page_students_o1",
+        "page_assignments_o0",
+        "page_withdrawal_o2",
+        "page_halcyon_o2",
+        "page_instance_o1",
+        "page_lecturer_o1",
+        "page_aggregation_o0",
+        "page_maintenance_o0",
+        "page_interim_request_o2",
+        "page_return_class_o1",
+        "page_control_review_o0",
+        "page_scope_table_o1",
+        "page_interim_product_o1",
+        "page_public_correction_o2",
+        "page_last_session_o0",
+        "page_case_close_o1",
+        "page_finding_council_calibrated"
+      ]
+    },
+    "page_end_unresolved": {
+      "kind": "unresolved",
+      "choices": [
+        "page_seminar_o2",
+        "page_name_check_o2",
+        "page_students_o0",
+        "page_assignments_o0",
+        "page_withdrawal_o1",
+        "page_halcyon_o2",
+        "page_instance_o0",
+        "page_lecturer_o1",
+        "page_aggregation_o2",
+        "page_maintenance_o0",
+        "page_interim_request_o1",
+        "page_return_class_o0",
+        "page_control_review_o1",
+        "page_scope_table_o2",
+        "page_interim_product_o1",
+        "page_public_correction_o0",
+        "page_last_session_o1",
+        "page_case_close_o0",
+        "page_finding_council_unresolved"
+      ]
+    },
+    "page_end_overreach": {
+      "kind": "overreach",
+      "choices": [
+        "page_seminar_o0",
+        "page_name_check_o0",
+        "page_students_o0",
+        "page_assignments_o1",
+        "page_withdrawal_o2",
+        "page_halcyon_o2",
+        "page_instance_o2",
+        "page_lecturer_o1",
+        "page_aggregation_o0",
+        "page_maintenance_o2",
+        "page_interim_request_o1",
+        "page_return_class_o0",
+        "page_control_review_o0",
+        "page_scope_table_o1",
+        "page_interim_product_o0",
+        "page_public_correction_o2",
+        "page_last_session_o1",
+        "page_case_close_o0",
+        "page_finding_council_overreach"
+      ]
+    },
+    "page_end_secret": {
+      "kind": "secret",
+      "choices": [
+        "page_seminar_o2",
+        "page_name_check_o2",
+        "page_students_o2",
+        "page_assignments_o1",
+        "page_withdrawal_o2",
+        "page_halcyon_o2",
+        "page_instance_o1",
+        "page_lecturer_o0",
+        "page_aggregation_o1",
+        "page_maintenance_o2",
+        "page_interim_request_o0",
+        "page_return_class_o2",
+        "page_control_review_o1",
+        "page_scope_table_o0",
+        "page_interim_product_o1",
+        "page_public_correction_o2",
+        "page_last_session_o1",
+        "page_case_close_o1",
+        "page_finding_council_secret"
+      ]
+    },
+    "page_end_reductive": {
+      "kind": "reductive",
+      "choices": [
+        "page_seminar_o0",
+        "page_name_check_o1",
+        "page_students_o1",
+        "page_assignments_o0",
+        "page_withdrawal_o1",
+        "page_halcyon_o1",
+        "page_instance_o1",
+        "page_lecturer_o2",
+        "page_aggregation_o1",
+        "page_maintenance_o1",
+        "page_interim_request_o1",
+        "page_return_class_o1",
+        "page_control_review_o0",
+        "page_scope_table_o1",
+        "page_interim_product_o1",
+        "page_public_correction_o0",
+        "page_last_session_o1",
+        "page_case_close_o0",
+        "page_finding_council_reductive"
+      ]
+    }
+  },
+  "dead_ends": 0,
+  "invalid_states": 0,
+  "blocked_special_options": 382,
+  "special_option_opportunities": 10000,
+  "world_sha256": "5c4bf8a1845e32f125d5cc72f68f5a8a6bc0d1f4417110aa477f67364c988b8b",
+  "reader_sha256": "d202559f953f8d848734bc514efe3b3033c92c7a68bad2a1935a55f8398bc3d4",
+  "ending_rates": {
+    "page_end_calibrated": 0.2146,
+    "page_end_overreach": 0.196,
+    "page_end_reductive": 0.2014,
+    "page_end_unresolved": 0.1996,
+    "page_end_secret": 0.1884
+  },
+  "missing_endings": [],
+  "reactions_visited": 86,
+  "reactions_total": 118,
+  "late_special_block_rate": 0.0382,
+  "state_ranges": {
+    "char_bureau.Evidence": [
+      -0.06000000000000001,
+      1
+    ],
+    "char_bureau.Ascription": [
+      -0.54,
+      1
+    ],
+    "char_bureau.Consent": [
+      -0.58,
+      1
+    ],
+    "char_bureau.Pressure": [
+      -0.45999999999999996,
+      1
+    ],
+    "char_bureau.Trust": [
+      -0.30000000000000004,
+      1
+    ],
+    "char_bureau.Mandate": [
+      0,
+      1
+    ],
+    "char_bureau.Care": [
+      -0.14,
+      1
+    ],
+    "char_bureau.Restraint": [
+      -0.78,
+      1
+    ],
+    "char_voidt.Trust::char_lamport": [
+      -0.11500000000000002,
+      0.4500000000000001
+    ],
+    "char_voidt.Evidence": [
+      0,
+      0
+    ],
+    "char_voidt.Ascription": [
+      0,
+      0
+    ],
+    "char_voidt.Consent": [
+      0,
+      0
+    ],
+    "char_voidt.Pressure": [
+      0,
+      0
+    ],
+    "char_voidt.Trust": [
+      0,
+      0
+    ],
+    "char_voidt.Mandate": [
+      0,
+      0
+    ],
+    "char_voidt.Care": [
+      0,
+      0
+    ],
+    "char_voidt.Restraint": [
+      0,
+      0
+    ],
+    "char_lamport.Trust::char_voidt": [
+      -0.19999999999999998,
+      0.36000000000000004
+    ],
+    "char_lamport.Evidence": [
+      0,
+      0
+    ],
+    "char_lamport.Ascription": [
+      0,
+      0
+    ],
+    "char_lamport.Consent": [
+      0,
+      0
+    ],
+    "char_lamport.Pressure": [
+      0,
+      0
+    ],
+    "char_lamport.Trust": [
+      0,
+      0
+    ],
+    "char_lamport.Mandate": [
+      0,
+      0
+    ],
+    "char_lamport.Care": [
+      0,
+      0
+    ],
+    "char_lamport.Restraint": [
+      0,
+      0
+    ]
+  },
+  "balance_warnings": [],
+  "pass": true,
+  "claim": "Sampled draft playability, not proof that every possible state/branch is reachable. Random-play frequencies describe this declared policy only."
+}

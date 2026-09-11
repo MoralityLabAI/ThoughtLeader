@@ -1,0 +1,13 @@
+{
+  "name": "thoughtleader-season-one",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Six reconstructed SweepWeave storyworld drafts with locally bundled art",
+  "scripts": {
+    "build": "python tools/build_season1.py",
+    "check": "python tools/check_season1.py",
+    "rehearse": "node tools/rehearse_season1.cjs",
+    "test:browser": "node tools/playtest_season1.cjs"
+  },
+  "devDependencies": { "playwright": "1.62.1" }
+}

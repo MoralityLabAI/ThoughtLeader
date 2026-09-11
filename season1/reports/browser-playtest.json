@@ -1,0 +1,637 @@
+{
+  "mode": "headless browser UI integration + manual screenshot review",
+  "browser": "152.0.4191.66",
+  "episodes": [
+    {
+      "episode": 1,
+      "steps": 19,
+      "finding": "The Supported Interim",
+      "resumed_pending_reaction": true,
+      "local_art_decoded": true,
+      "observed": [
+        {
+          "scene": "page_seminar",
+          "choice": "page_seminar_o1",
+          "reaction_words": 29
+        },
+        {
+          "scene": "page_name_check",
+          "choice": "page_name_check_o2",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_students",
+          "choice": "page_students_o0",
+          "reaction_words": 29
+        },
+        {
+          "scene": "page_assignments",
+          "choice": "page_assignments_o1",
+          "reaction_words": 29
+        },
+        {
+          "scene": "page_withdrawal",
+          "choice": "page_withdrawal_o2",
+          "reaction_words": 30
+        },
+        {
+          "scene": "page_halcyon",
+          "choice": "page_halcyon_o0",
+          "reaction_words": 29
+        },
+        {
+          "scene": "page_instance",
+          "choice": "page_instance_o1",
+          "reaction_words": 31
+        },
+        {
+          "scene": "page_lecturer",
+          "choice": "page_lecturer_o2",
+          "reaction_words": 31
+        },
+        {
+          "scene": "page_aggregation",
+          "choice": "page_aggregation_o0",
+          "reaction_words": 32
+        },
+        {
+          "scene": "page_maintenance",
+          "choice": "page_maintenance_o1",
+          "reaction_words": 30
+        },
+        {
+          "scene": "page_interim_request",
+          "choice": "page_interim_request_o2",
+          "reaction_words": 32
+        },
+        {
+          "scene": "page_return_class",
+          "choice": "page_return_class_o0",
+          "reaction_words": 30
+        },
+        {
+          "scene": "page_control_review",
+          "choice": "page_control_review_o1",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_scope_table",
+          "choice": "page_scope_table_o2",
+          "reaction_words": 30
+        },
+        {
+          "scene": "page_interim_product",
+          "choice": "page_interim_product_o0",
+          "reaction_words": 31
+        },
+        {
+          "scene": "page_public_correction",
+          "choice": "page_public_correction_o1",
+          "reaction_words": 33
+        },
+        {
+          "scene": "page_last_session",
+          "choice": "page_last_session_o2",
+          "reaction_words": 33
+        },
+        {
+          "scene": "page_case_close",
+          "choice": "page_case_close_o0",
+          "reaction_words": 35
+        },
+        {
+          "scene": "page_finding_council",
+          "choice": "page_finding_council_calibrated",
+          "reaction_words": 36
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "steps": 19,
+      "finding": "One Door Opens",
+      "resumed_pending_reaction": true,
+      "local_art_decoded": true,
+      "observed": [
+        {
+          "scene": "page_brief",
+          "choice": "page_brief_o2",
+          "reaction_words": 29
+        },
+        {
+          "scene": "page_corner",
+          "choice": "page_corner_o0",
+          "reaction_words": 29
+        },
+        {
+          "scene": "page_deja",
+          "choice": "page_deja_o1",
+          "reaction_words": 30
+        },
+        {
+          "scene": "page_dispatch",
+          "choice": "page_dispatch_o2",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_clinic",
+          "choice": "page_clinic_o0",
+          "reaction_words": 32
+        },
+        {
+          "scene": "page_chair",
+          "choice": "page_chair_o1",
+          "reaction_words": 34
+        },
+        {
+          "scene": "page_attest",
+          "choice": "page_attest_o2",
+          "reaction_words": 34
+        },
+        {
+          "scene": "page_marnie",
+          "choice": "page_marnie_o0",
+          "reaction_words": 31
+        },
+        {
+          "scene": "page_founder",
+          "choice": "page_founder_o1",
+          "reaction_words": 30
+        },
+        {
+          "scene": "page_trust",
+          "choice": "page_trust_o2",
+          "reaction_words": 31
+        },
+        {
+          "scene": "page_ward",
+          "choice": "page_ward_o0",
+          "reaction_words": 31
+        },
+        {
+          "scene": "page_cruz",
+          "choice": "page_cruz_o1",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_ledger",
+          "choice": "page_ledger_o2",
+          "reaction_words": 33
+        },
+        {
+          "scene": "page_witness_name",
+          "choice": "page_witness_name_o0",
+          "reaction_words": 34
+        },
+        {
+          "scene": "page_controls",
+          "choice": "page_controls_o1",
+          "reaction_words": 31
+        },
+        {
+          "scene": "page_repair",
+          "choice": "page_repair_o2",
+          "reaction_words": 33
+        },
+        {
+          "scene": "page_jurisdiction",
+          "choice": "page_jurisdiction_o0",
+          "reaction_words": 30
+        },
+        {
+          "scene": "page_case_close",
+          "choice": "page_case_close_o1",
+          "reaction_words": 35
+        },
+        {
+          "scene": "page_finding_council",
+          "choice": "page_finding_council_calibrated",
+          "reaction_words": 36
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "steps": 19,
+      "finding": "Acts with Names",
+      "resumed_pending_reaction": true,
+      "local_art_decoded": true,
+      "observed": [
+        {
+          "scene": "page_hall",
+          "choice": "page_hall_o0",
+          "reaction_words": 36
+        },
+        {
+          "scene": "page_ground",
+          "choice": "page_ground_o1",
+          "reaction_words": 34
+        },
+        {
+          "scene": "page_yusuf",
+          "choice": "page_yusuf_o2",
+          "reaction_words": 34
+        },
+        {
+          "scene": "page_feed",
+          "choice": "page_feed_o0",
+          "reaction_words": 33
+        },
+        {
+          "scene": "page_clock",
+          "choice": "page_clock_o1",
+          "reaction_words": 34
+        },
+        {
+          "scene": "page_scholar",
+          "choice": "page_scholar_o2",
+          "reaction_words": 33
+        },
+        {
+          "scene": "page_chain",
+          "choice": "page_chain_o0",
+          "reaction_words": 33
+        },
+        {
+          "scene": "page_circle",
+          "choice": "page_circle_o1",
+          "reaction_words": 32
+        },
+        {
+          "scene": "page_wallet",
+          "choice": "page_wallet_o2",
+          "reaction_words": 32
+        },
+        {
+          "scene": "page_signer",
+          "choice": "page_signer_o0",
+          "reaction_words": 32
+        },
+        {
+          "scene": "page_signal",
+          "choice": "page_signal_o1",
+          "reaction_words": 37
+        },
+        {
+          "scene": "page_family",
+          "choice": "page_family_o2",
+          "reaction_words": 32
+        },
+        {
+          "scene": "page_measurements",
+          "choice": "page_measurements_o0",
+          "reaction_words": 32
+        },
+        {
+          "scene": "page_seams",
+          "choice": "page_seams_o1",
+          "reaction_words": 32
+        },
+        {
+          "scene": "page_designation",
+          "choice": "page_designation_o2",
+          "reaction_words": 32
+        },
+        {
+          "scene": "page_correction",
+          "choice": "page_correction_o0",
+          "reaction_words": 36
+        },
+        {
+          "scene": "page_organizers",
+          "choice": "page_organizers_o1",
+          "reaction_words": 34
+        },
+        {
+          "scene": "page_case_close",
+          "choice": "page_case_close_o2",
+          "reaction_words": 36
+        },
+        {
+          "scene": "page_finding_council",
+          "choice": "page_finding_council_calibrated",
+          "reaction_words": 36
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "steps": 19,
+      "finding": "Terms Of Attachment",
+      "resumed_pending_reaction": true,
+      "local_art_decoded": true,
+      "observed": [
+        {
+          "scene": "page_complaint",
+          "choice": "page_complaint_o1",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_evan",
+          "choice": "page_evan_o2",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_welfare",
+          "choice": "page_welfare_o0",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_dashboard",
+          "choice": "page_dashboard_o1",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_group",
+          "choice": "page_group_o2",
+          "reaction_words": 25
+        },
+        {
+          "scene": "page_proprietor",
+          "choice": "page_proprietor_o0",
+          "reaction_words": 25
+        },
+        {
+          "scene": "page_comparison",
+          "choice": "page_comparison_o1",
+          "reaction_words": 25
+        },
+        {
+          "scene": "page_target",
+          "choice": "page_target_o2",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_moderator",
+          "choice": "page_moderator_o0",
+          "reaction_words": 25
+        },
+        {
+          "scene": "page_jonah_return",
+          "choice": "page_jonah_return_o1",
+          "reaction_words": 24
+        },
+        {
+          "scene": "page_owen_second",
+          "choice": "page_owen_second_o2",
+          "reaction_words": 29
+        },
+        {
+          "scene": "page_order",
+          "choice": "page_order_o0",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_rollout",
+          "choice": "page_rollout_o1",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_ownership",
+          "choice": "page_ownership_o2",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_notice",
+          "choice": "page_notice_o0",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_accounts",
+          "choice": "page_accounts_o1",
+          "reaction_words": 25
+        },
+        {
+          "scene": "page_return_visit",
+          "choice": "page_return_visit_o2",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_finding",
+          "choice": "page_finding_o0",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_finding_council",
+          "choice": "page_finding_council_calibrated",
+          "reaction_words": 36
+        }
+      ]
+    },
+    {
+      "episode": 5,
+      "steps": 19,
+      "finding": "Two Responsibilities",
+      "resumed_pending_reaction": true,
+      "local_art_decoded": true,
+      "observed": [
+        {
+          "scene": "page_diner",
+          "choice": "page_diner_o2",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_two_boards",
+          "choice": "page_two_boards_o0",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_rook",
+          "choice": "page_rook_o1",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_mara",
+          "choice": "page_mara_o2",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_penn",
+          "choice": "page_penn_o0",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_score",
+          "choice": "page_score_o1",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_notebook",
+          "choice": "page_notebook_o2",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_renewal",
+          "choice": "page_renewal_o0",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_quist",
+          "choice": "page_quist_o1",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_audit",
+          "choice": "page_audit_o2",
+          "reaction_words": 24
+        },
+        {
+          "scene": "page_loop",
+          "choice": "page_loop_o0",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_discovery",
+          "choice": "page_discovery_o1",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_chalk",
+          "choice": "page_chalk_o2",
+          "reaction_words": 25
+        },
+        {
+          "scene": "page_source_safety",
+          "choice": "page_source_safety_o0",
+          "reaction_words": 29
+        },
+        {
+          "scene": "page_rook_answer",
+          "choice": "page_rook_answer_o1",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_jurisdictions",
+          "choice": "page_jurisdictions_o2",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_charging",
+          "choice": "page_charging_o0",
+          "reaction_words": 29
+        },
+        {
+          "scene": "page_joint",
+          "choice": "page_joint_o1",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_finding_council",
+          "choice": "page_finding_council_calibrated",
+          "reaction_words": 36
+        }
+      ]
+    },
+    {
+      "episode": 6,
+      "steps": 19,
+      "finding": "Authorized In Public",
+      "resumed_pending_reaction": true,
+      "local_art_decoded": true,
+      "observed": [
+        {
+          "scene": "page_morning_vote",
+          "choice": "page_morning_vote_o0",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_remit",
+          "choice": "page_remit_o1",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_volunteers",
+          "choice": "page_volunteers_o2",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_treasurer",
+          "choice": "page_treasurer_o0",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_housing",
+          "choice": "page_housing_o1",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_candidate",
+          "choice": "page_candidate_o2",
+          "reaction_words": 29
+        },
+        {
+          "scene": "page_chorus",
+          "choice": "page_chorus_o0",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_minority",
+          "choice": "page_minority_o1",
+          "reaction_words": 25
+        },
+        {
+          "scene": "page_reporter",
+          "choice": "page_reporter_o2",
+          "reaction_words": 28
+        },
+        {
+          "scene": "page_cooling",
+          "choice": "page_cooling_o0",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_amendment",
+          "choice": "page_amendment_o1",
+          "reaction_words": 25
+        },
+        {
+          "scene": "page_replay",
+          "choice": "page_replay_o2",
+          "reaction_words": 25
+        },
+        {
+          "scene": "page_archive",
+          "choice": "page_archive_o0",
+          "reaction_words": 26
+        },
+        {
+          "scene": "page_debate",
+          "choice": "page_debate_o1",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_evening",
+          "choice": "page_evening_o2",
+          "reaction_words": 24
+        },
+        {
+          "scene": "page_future",
+          "choice": "page_future_o0",
+          "reaction_words": 29
+        },
+        {
+          "scene": "page_polls",
+          "choice": "page_polls_o1",
+          "reaction_words": 23
+        },
+        {
+          "scene": "page_final_review",
+          "choice": "page_final_review_o2",
+          "reaction_words": 27
+        },
+        {
+          "scene": "page_finding_council",
+          "choice": "page_finding_council_calibrated",
+          "reaction_words": 36
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "sha256": {
+    "storyworld_reader.html": "d202559f953f8d848734bc514efe3b3033c92c7a68bad2a1935a55f8398bc3d4",
+    "season-data.js": "2e87c4bf840a0a334fa665c9801d98d78be5f546cfd609a16b346b4013d117c7"
+  },
+  "pass": true
+}

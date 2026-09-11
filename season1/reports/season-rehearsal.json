@@ -1,0 +1,94 @@
+{
+  "method": "actual StoryworldEngine extracted from the delivered browser reader; uniform choice among legal options; deterministic highest-score reactions",
+  "reader_sha256": "d202559f953f8d848734bc514efe3b3033c92c7a68bad2a1935a55f8398bc3d4",
+  "runs_per_episode": 5000,
+  "seed": 20260911,
+  "reports": [
+    {
+      "episode": 1,
+      "pass": true,
+      "endings": {
+        "page_end_calibrated": 1073,
+        "page_end_unresolved": 998,
+        "page_end_overreach": 980,
+        "page_end_secret": 942,
+        "page_end_reductive": 1007
+      },
+      "dead_ends": 0,
+      "balance_warnings": []
+    },
+    {
+      "episode": 2,
+      "pass": true,
+      "endings": {
+        "page_end_secret": 959,
+        "page_end_overreach": 1021,
+        "page_end_calibrated": 983,
+        "page_end_reductive": 1010,
+        "page_end_unresolved": 1027
+      },
+      "dead_ends": 0,
+      "balance_warnings": []
+    },
+    {
+      "episode": 3,
+      "pass": true,
+      "endings": {
+        "page_end_reductive": 1035,
+        "page_end_overreach": 1047,
+        "page_end_secret": 873,
+        "page_end_unresolved": 1031,
+        "page_end_calibrated": 1014
+      },
+      "dead_ends": 0,
+      "balance_warnings": []
+    },
+    {
+      "episode": 4,
+      "pass": true,
+      "endings": {
+        "page_end_overreach": 1143,
+        "page_end_reductive": 1101,
+        "page_end_calibrated": 880,
+        "page_end_secret_exit": 788,
+        "page_end_unresolved": 1088
+      },
+      "dead_ends": 0,
+      "balance_warnings": []
+    },
+    {
+      "episode": 5,
+      "pass": true,
+      "endings": {
+        "page_end_calibrated": 888,
+        "page_end_overreach": 1104,
+        "page_end_reductive": 1171,
+        "page_end_unresolved": 1077,
+        "page_end_secret_borrowed_violence": 760
+      },
+      "dead_ends": 0,
+      "balance_warnings": []
+    },
+    {
+      "episode": 6,
+      "pass": true,
+      "endings": {
+        "page_end_calibrated": 782,
+        "page_end_unresolved": 1188,
+        "page_end_secret_amendment": 725,
+        "page_end_overreach": 1160,
+        "page_end_reductive": 1145
+      },
+      "dead_ends": 0,
+      "balance_warnings": []
+    }
+  ],
+  "failures": [],
+  "pass": true,
+  "regressions": [
+    "full belief keyrings remain distinct",
+    "hidden findings cannot be selected directly",
+    "double choice input cannot duplicate effects",
+    "all sampled state values finite and bounded"
+  ]
+}
