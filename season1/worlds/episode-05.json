@@ -193,7 +193,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_diner_o0",
@@ -2216,7 +2216,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_two_boards_o0",
@@ -4304,7 +4304,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_rook_o0",
@@ -6328,7 +6328,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_mara_o0",
@@ -8352,7 +8352,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_penn_o0",
@@ -10440,7 +10440,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_score_o0",
@@ -12563,7 +12563,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_notebook_o0",
@@ -14585,7 +14585,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_renewal_o0",
@@ -16673,7 +16673,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_quist_o0",
@@ -18761,7 +18761,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_audit_o0",
@@ -20848,7 +20848,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_loop_o0",
@@ -22872,7 +22872,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_discovery_o0",
@@ -24931,7 +24931,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_chalk_o0",
@@ -27019,7 +27019,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_source_safety_o0",
@@ -29107,7 +29107,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_rook_answer_o0",
@@ -31195,7 +31195,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_jurisdictions_o0",
@@ -33218,7 +33218,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_charging_o0",
@@ -35242,7 +35242,7 @@
           }
         ]
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "options": [
         {
           "id": "page_joint_o0",
@@ -39844,7 +39844,7 @@
         ],
         "coefficient": 1.0
       },
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "author_notes": {
         "source_ids": [],
         "text_status": "new",
@@ -39876,7 +39876,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "ending_kind": "calibrated",
       "author_notes": {
         "source_note": "new"
@@ -39907,7 +39907,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "ending_kind": "overreach",
       "author_notes": {
         "source_note": "new"
@@ -39938,7 +39938,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "ending_kind": "reductive",
       "author_notes": {
         "source_note": "new"
@@ -39969,7 +39969,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "ending_kind": "unresolved",
       "author_notes": {
         "source_note": "new"
@@ -40000,7 +40000,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep05.png",
+      "image": "assets/pixel/ep05.png",
       "ending_kind": "secret",
       "author_notes": {
         "source_note": "new"
@@ -40017,6 +40017,7 @@
     "new_mechanics": true,
     "new_endings_prose": true,
     "new_art": true,
+    "art_status": "restored original indexed portraits and native scene grammar; six new pixel settings",
     "profile": "compact narrative draft; not a high-dimensional reasoning benchmark",
     "nudge_semantics": "clamp(current + amount, -1, 1), matching the checked-in GPTStoryworld reader",
     "cast": [

@@ -630,8 +630,11 @@
   "errors": [],
   "externalRequests": [],
   "sha256": {
-    "storyworld_reader.html": "d202559f953f8d848734bc514efe3b3033c92c7a68bad2a1935a55f8398bc3d4",
-    "season-data.js": "2e87c4bf840a0a334fa665c9801d98d78be5f546cfd609a16b346b4013d117c7"
+    "storyworld_reader.html": "95486be916d188865f38c6d76471d2aacf2da22d69b099574aa9c9d6b6a86461",
+    "season-data.js": "f378e226395ce7020a523dddd6f88739750092fedaf2366e1964de14ce025793",
+    "assets/pixel/pixel-stage.js": "941a0ddaab1d533504d8f7737d7b6f5d71a4e930773da2585746ed96b1ddb45e",
+    "assets/pixel/legacy-scenes.js": "b160868c8be9f894fa71b1af130690e77d5f25f48959bc9f0dbadf9ed06dc681",
+    "recovery/original-pilot/build/sprites.js": "d9f3e475894309dbb9d8550e74acedcb2634182d2938317001c585ecc7c2c088"
   },
   "pass": true
 }

@@ -13,11 +13,11 @@ Six playable investigative storyworld drafts starring Agents Kaitlyn Voidt and D
 | 5 · Good Standing | Organized crime and the government's own feedback loop collide. |
 | 6 · The Movement | A legitimate political movement exercises revocable human authority alongside AI coordination. |
 
-[Season guide and draft scripts](season1/README.md) · [Art and exact prompts](season1/assets/README.md) · [Authoring contract](season1/AUTHORING_CONTRACT.md)
+[Season guide and draft scripts](season1/README.md) · [Restored pixel art](season1/assets/pixel/README.md) · [Original pilot recovery](season1/recovery/ORIGINAL_PILOT_RECOVERY.md)
 
-![Voidt and Lamport](season1/assets/cast.png)
+![Restored pixel portraits of Voidt and Lamport](season1/assets/pixel/cast.png)
 
-Each episode has 18 substantive decision scenes, one final filing decision and five endings. The season includes six ordered SweepWeave JSON exports, editable author source, readable scripts/SWMD, an offline reader, six episode illustrations and a cast illustration. These are narrative drafts, not a claim of production-polish certification.
+Each episode has 18 substantive decision scenes, one final filing decision and five endings. The season includes six ordered SweepWeave JSON exports, editable author source, readable scripts/SWMD, an offline pixel-theater reader, six new pixel settings, and the recovered original portrait system. These are narrative drafts, not a claim of production-polish certification.
 
 Rebuild and check from the repository root:
 
@@ -29,4 +29,4 @@ node tools/rehearse_season1.cjs --runs 5000
 
 Python 3.10+ and Node.js 18+ are sufficient. On Windows, `py -3` may replace `python`. The optional Playwright browser tests and validation evidence are described in the [season guide](season1/README.md).
 
-The original C-drive recovery remains in the older root directories and is corrupt. Later discovery of intact GPTStoryworld playtest logs recovered 469 scenes of prose, allowing this reconstruction. [RECOVERY_INVENTORY.md](RECOVERY_INVENTORY.md) preserves the original audit and [the source summary](season1/recovery/SUMMARY.md) explains what the logs recovered. New mechanics, endings and illustrations are identified explicitly; the lost original project has not been restored byte for byte.
+The original C-drive recovery remains in the older root directories and is corrupt. Later discovery of intact GPTStoryworld playtest logs recovered 469 scenes of prose. A subsequent search found an intact earlier ThoughtLeader checkout containing the original pilot, pixel portraits and theater renderer; those files are now preserved unchanged under `season1/recovery/original-pilot/`. [RECOVERY_INVENTORY.md](RECOVERY_INVENTORY.md) records both discoveries. The six-case season is still a reconstruction, not a byte-for-byte restoration of the later lost project.

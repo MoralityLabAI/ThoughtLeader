@@ -136,8 +136,8 @@
   "invalid_states": 0,
   "blocked_special_options": 1674,
   "special_option_opportunities": 10000,
-  "world_sha256": "5250be852fd3dc8f5c54f4d79779cc4c17c78f821a665e2e8977f415e02e48ef",
-  "reader_sha256": "d202559f953f8d848734bc514efe3b3033c92c7a68bad2a1935a55f8398bc3d4",
+  "world_sha256": "8cdf5deb73ba92e8307da2fb1c0e6784e517b7eb5eec1664088c6f8ed0f734b4",
+  "reader_sha256": "95486be916d188865f38c6d76471d2aacf2da22d69b099574aa9c9d6b6a86461",
   "ending_rates": {
     "page_end_calibrated": 0.176,
     "page_end_overreach": 0.2286,

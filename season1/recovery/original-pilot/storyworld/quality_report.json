@@ -1,0 +1,237 @@
+{
+  "checks": [
+    {
+      "actual": 3.2128,
+      "name": "options_per_encounter",
+      "pass": true,
+      "target": 3.2
+    },
+    {
+      "actual": 2.5033,
+      "name": "reactions_per_option",
+      "pass": true,
+      "target": 2.5
+    },
+    {
+      "actual": 5.0132,
+      "name": "effects_per_reaction",
+      "pass": true,
+      "target": 4.5
+    },
+    {
+      "actual": 2.0,
+      "name": "desirability_vars_per_reaction",
+      "pass": true,
+      "target": 1.6
+    },
+    {
+      "actual": 52.5106,
+      "name": "avg_encounter_words",
+      "pass": true,
+      "target": 50.0
+    },
+    {
+      "actual": 20.6481,
+      "name": "avg_reaction_words",
+      "pass": true,
+      "target": 20.0
+    },
+    {
+      "actual": 3.0,
+      "name": "pvalue_refs",
+      "pass": true,
+      "target": 1.0
+    },
+    {
+      "actual": 2.0,
+      "name": "p2value_refs",
+      "pass": true,
+      "target": 1.0
+    },
+    {
+      "actual": 7.947,
+      "name": "visibility_gated_options_pct",
+      "pass": true,
+      "target": 3.0
+    },
+    {
+      "actual": 4.0,
+      "name": "desirability_operator_variety",
+      "pass": true,
+      "target": 3.0
+    },
+    {
+      "actual": 3.0,
+      "name": "effect_operator_variety",
+      "pass": true,
+      "target": 2.0
+    },
+    {
+      "actual": 0.4871,
+      "name": "desirability_operator_dominance",
+      "pass": true,
+      "target": 0.9
+    },
+    {
+      "actual": 0.7148,
+      "name": "effect_operator_dominance",
+      "pass": true,
+      "target": 0.92
+    },
+    {
+      "actual": 1.0,
+      "name": "effect_nonconstant_ratio",
+      "pass": true,
+      "target": 0.999
+    },
+    {
+      "actual": 1.0,
+      "name": "desirability_nonconstant_ratio",
+      "pass": true,
+      "target": 0.999
+    },
+    {
+      "actual": 1.3989,
+      "name": "effect_script_complexity",
+      "pass": true,
+      "target": 1.2
+    },
+    {
+      "actual": 2.0,
+      "name": "desirability_script_complexity",
+      "pass": true,
+      "target": 1.2
+    },
+    {
+      "actual": 0.0795,
+      "name": "option_visibility_nonconstant_ratio",
+      "pass": true,
+      "target": 0.03
+    },
+    {
+      "actual": 0.1325,
+      "name": "option_visibility_complexity",
+      "pass": false,
+      "target": 0.6
+    },
+    {
+      "actual": 0.053,
+      "name": "option_performability_nonconstant_ratio",
+      "pass": true,
+      "target": 0.03
+    },
+    {
+      "actual": 0.053,
+      "name": "option_performability_complexity",
+      "pass": false,
+      "target": 0.6
+    },
+    {
+      "actual": 0.3333,
+      "name": "encounter_acceptability_nonconstant_ratio",
+      "pass": true,
+      "target": 0.2
+    },
+    {
+      "actual": 1.0,
+      "name": "ending_reachability_balance",
+      "pass": true,
+      "target": 0.19
+    },
+    {
+      "actual": 1.0,
+      "name": "secret_reachability_balance",
+      "pass": true,
+      "target": 0.12
+    },
+    {
+      "actual": 0.8,
+      "name": "super_secret_reachability",
+      "pass": true,
+      "target": 0.25
+    },
+    {
+      "actual": 0.2353,
+      "name": "encounter_desirability_nonconstant_ratio",
+      "pass": true,
+      "target": 0.2
+    },
+    {
+      "actual": 0.7059,
+      "name": "encounter_desirability_complexity",
+      "pass": true,
+      "target": 0.5
+    },
+    {
+      "actual": 0,
+      "name": "validator_errors",
+      "pass": true,
+      "target": 0
+    }
+  ],
+  "failures": [
+    "option_visibility_complexity",
+    "option_performability_complexity"
+  ],
+  "operator_counts": {
+    "desirability": {
+      "Addition": 378,
+      "And": 4,
+      "Arithmetic Comparator": 16,
+      "Multiplication": 378
+    },
+    "effects": {
+      "Addition": 1895,
+      "Multiplication": 378,
+      "Nudge": 378
+    }
+  },
+  "pass": false,
+  "polish_metrics": {
+    "act2": [
+      4.444444444444445,
+      1.0,
+      45,
+      2
+    ],
+    "act3": [
+      16.216216216216218,
+      1.6666666666666667,
+      37,
+      6
+    ],
+    "desirability_vars_avg": 2.0,
+    "effects_per_reaction": 5.0132275132275135,
+    "options_per_encounter": 3.2127659574468086,
+    "reactions_per_option": 2.5033112582781456,
+    "secret_checks": [
+      [
+        "page_secret_calibrated",
+        2,
+        false
+      ]
+    ],
+    "super_secret_access_pct": 0.8
+  },
+  "storyworld": "C:\\projects\\ThoughtLeader\\storyworld\\thought-leader-pilot.json",
+  "summary": {
+    "avg_desirability_vars": 2.0,
+    "avg_encounter_words": 52.51,
+    "avg_reaction_words": 20.65,
+    "desirability_nonconstant_ratio": 1.0,
+    "desirability_operator_dominance": 0.4871,
+    "desirability_operator_variety": 4,
+    "effect_nonconstant_ratio": 1.0,
+    "effect_operator_dominance": 0.7148,
+    "effect_operator_variety": 3,
+    "encounter_acceptability_nonconstant_ratio": 0.3333,
+    "encounter_desirability_nonconstant_ratio": 0.2353,
+    "encounters": 51,
+    "gated_options_pct": 7.95,
+    "option_performability_nonconstant_ratio": 0.053,
+    "option_visibility_nonconstant_ratio": 0.0795,
+    "p2value_refs": 2,
+    "pvalue_refs": 3
+  },
+  "validator_errors": []
+}

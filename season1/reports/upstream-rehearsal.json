@@ -12,37 +12,37 @@
     {
       "episode": 1,
       "exit_code": 0,
-      "world_sha256": "5c4bf8a1845e32f125d5cc72f68f5a8a6bc0d1f4417110aa477f67364c988b8b",
+      "world_sha256": "582514ea9ef87088fa8f08ed014caf9f748080f247ebb6cbe53fc1ba167774a7",
       "raw_output": "episode-01-upstream-rehearsal.txt"
     },
     {
       "episode": 2,
       "exit_code": 0,
-      "world_sha256": "48da08e9ed979a4956dcb5f1db17c091d9dce1e0ebda750ef4569110fbd3b361",
+      "world_sha256": "1a6290bb81039d987f396ab2cecb04b05c7f38a359659ed40a08073144f04225",
       "raw_output": "episode-02-upstream-rehearsal.txt"
     },
     {
       "episode": 3,
       "exit_code": 0,
-      "world_sha256": "2cc3652dba5fe36ae9ced6f7f269cab6ed5d1c2d48d4083d858eca2f15b10250",
+      "world_sha256": "2d2e575ec68a4a09dae945acb2dd1a8f8326ba2886e9c359d629a741db457827",
       "raw_output": "episode-03-upstream-rehearsal.txt"
     },
     {
       "episode": 4,
       "exit_code": 0,
-      "world_sha256": "5250be852fd3dc8f5c54f4d79779cc4c17c78f821a665e2e8977f415e02e48ef",
+      "world_sha256": "8cdf5deb73ba92e8307da2fb1c0e6784e517b7eb5eec1664088c6f8ed0f734b4",
       "raw_output": "episode-04-upstream-rehearsal.txt"
     },
     {
       "episode": 5,
       "exit_code": 0,
-      "world_sha256": "a61fac8c1f61245be7a6af1c89fad749d6a113dcf544294109f5a42c219ae691",
+      "world_sha256": "c82dc116f6a35655dc9d3daecb2e932f4087f6abb77ec6e15f13101a50bf246e",
       "raw_output": "episode-05-upstream-rehearsal.txt"
     },
     {
       "episode": 6,
       "exit_code": 0,
-      "world_sha256": "1d59b1d711bbeb404adb40f716a2df37d87e8ae42eddb80bfd36f30856ee8e45",
+      "world_sha256": "6a5893e20b97e4d8e6a8bc52f498b28277ff739a9de2ebe2ddf5687b381e9242",
       "raw_output": "episode-06-upstream-rehearsal.txt"
     }
   ],

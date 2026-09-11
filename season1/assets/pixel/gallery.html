@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thought Leader — restored pixel art</title>
+<style>body{margin:30px;background:#0e131b;color:#c8bfa4;font:15px/1.6 monospace}h1{color:#d9a441}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}canvas{width:100%;image-rendering:pixelated;background:#0e131b}article{padding:15px;border:1px solid #46545a}#cast{display:flex;gap:20px;flex-wrap:wrap;margin:30px 0}#cast canvas{width:144px;height:168px}a{color:#6fb3a8}</style>
+<h1>THOUGHT LEADER / PIXEL THEATER</h1><p>Original Claude-era 48×56 indexed portraits. Six new 320×180 environments extend the recovered palette and procedural scene grammar.</p>
+<p><a href="../../storyworld_reader.html">Play Season One</a> · <a href="../../recovery/original-pilot/character-sheet.html">Unchanged original character sheet</a></p>
+<div id="cast"></div><main id="rooms"></main>
+<script src="../../recovery/original-pilot/build/sprites.js"></script><script src="legacy-scenes.js"></script><script src="pixel-stage.js"></script>
+<script>
+for(const who of ['VOIDT','LAMPORT','MARSH','ALDUNATE','KIRIAKOU','MODEL']){const card=document.createElement('div'),c=document.createElement('canvas');c.width=48;c.height=56;c.dataset.who=who;card.append(c,document.createTextNode(who==='KIRIAKOU'?'FAKEIAKOU':who));document.querySelector('#cast').append(card);}
+for(let n=1;n<=6;n++){const a=document.createElement('article'),c=document.createElement('canvas');c.width=320;c.height=180;c.dataset.episode=n;a.append(c,document.createTextNode(`${n} / ${THOUGHTLEADER_PIXEL.settings[n-1].toUpperCase()}`));document.querySelector('#rooms').append(a);}
+function frame(t){document.querySelectorAll('[data-who]').forEach(c=>THOUGHTLEADER_PIXEL.drawPortrait(c,c.dataset.who,t/40|0));document.querySelectorAll('[data-episode]').forEach(c=>THOUGHTLEADER_PIXEL.draw(c,+c.dataset.episode,t/40|0));if(!matchMedia('(prefers-reduced-motion: reduce)').matches)requestAnimationFrame(frame);}frame(800);
+</script></html>

@@ -67,7 +67,7 @@ def main():
             assert not errors, errors
             assert len(world["encounters"]) == 24
             images = {e["image"] for e in world["encounters"]}
-            assert images == {f"assets/ep{number:02}.png"}
+            assert images == {f"assets/pixel/ep{number:02}.png"}
             for image in images:
                 assert (ROOT / "season1" / image).is_file(), f"Missing image: {image}"
             effects = [r["after_effects"] for e in world["encounters"] for o in e["options"] for r in o["reactions"]]
@@ -82,17 +82,20 @@ def main():
             report["errors"].append(f"Episode {number}: {error}")
     for image in [*(f"ep{n:02}.png" for n in range(1, 7)), "cast.png"]:
         try:
-            report["assets"].append(check_png(ROOT / "season1" / "assets" / image))
+            report["assets"].append(check_png(ROOT / "season1" / "assets" / "pixel" / image))
         except (AssertionError, ValueError, OSError, struct.error, zlib.error) as error:
             report["errors"].append(f"Asset {image}: {error}")
     try:
-        manifest = json.loads((ROOT / "season1/assets/manifest.json").read_text(encoding="utf-8"))
+        manifest = json.loads((ROOT / "season1/assets/pixel/manifest.json").read_text(encoding="utf-8"))
         expected_assets = {asset["relativePath"]: asset for asset in manifest["assets"]}
         assert len(expected_assets) == 7 and len(report["assets"]) == 7
         for asset in report["assets"]:
             expected = expected_assets[asset["path"]]
             assert all(asset[key] == expected[key] for key in ("width", "height", "bytes", "sha256")), asset["path"]
         report["art_manifest_matches"] = True
+        for relative, expected_hash in manifest["sourceHashes"].items():
+            assert hashlib.sha256((ROOT / relative).read_bytes()).hexdigest() == expected_hash, f"Changed recovered source: {relative}"
+        report["recovered_pixel_sources_match"] = True
     except (AssertionError, KeyError, ValueError, OSError) as error:
         report["errors"].append(f"Art manifest: {error}")
     if args.with_playtests:

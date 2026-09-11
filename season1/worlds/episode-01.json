@@ -193,7 +193,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_seminar_o0",
@@ -2213,7 +2213,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_name_check_o0",
@@ -4300,7 +4300,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_students_o0",
@@ -6320,7 +6320,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_assignments_o0",
@@ -8404,7 +8404,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_withdrawal_o0",
@@ -10424,7 +10424,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_halcyon_o0",
@@ -12483,7 +12483,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_instance_o0",
@@ -14506,7 +14506,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_lecturer_o0",
@@ -16529,7 +16529,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_aggregation_o0",
@@ -18552,7 +18552,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_maintenance_o0",
@@ -20576,7 +20576,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_interim_request_o0",
@@ -22600,7 +22600,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_return_class_o0",
@@ -24592,7 +24592,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_control_review_o0",
@@ -26679,7 +26679,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_scope_table_o0",
@@ -28702,7 +28702,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_interim_product_o0",
@@ -30725,7 +30725,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_public_correction_o0",
@@ -32812,7 +32812,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_last_session_o0",
@@ -34900,7 +34900,7 @@
           }
         ]
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "options": [
         {
           "id": "page_case_close_o0",
@@ -39502,7 +39502,7 @@
         ],
         "coefficient": 1.0
       },
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "author_notes": {
         "source_ids": [],
         "text_status": "new",
@@ -39534,7 +39534,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "ending_kind": "calibrated",
       "author_notes": {
         "source_note": "new"
@@ -39565,7 +39565,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "ending_kind": "overreach",
       "author_notes": {
         "source_note": "new"
@@ -39596,7 +39596,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "ending_kind": "reductive",
       "author_notes": {
         "source_note": "new"
@@ -39627,7 +39627,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "ending_kind": "unresolved",
       "author_notes": {
         "source_note": "new"
@@ -39658,7 +39658,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep01.png",
+      "image": "assets/pixel/ep01.png",
       "ending_kind": "secret",
       "author_notes": {
         "source_note": "new"
@@ -39675,6 +39675,7 @@
     "new_mechanics": true,
     "new_endings_prose": true,
     "new_art": true,
+    "art_status": "restored original indexed portraits and native scene grammar; six new pixel settings",
     "profile": "compact narrative draft; not a high-dimensional reasoning benchmark",
     "nudge_semantics": "clamp(current + amount, -1, 1), matching the checked-in GPTStoryworld reader",
     "cast": [

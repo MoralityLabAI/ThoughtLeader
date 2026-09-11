@@ -20,7 +20,7 @@ const selected = process.argv.includes('--episode') ? Number(process.argv[proces
   page.on('pageerror', e => errors.push(e.message));
   page.on('request', request => { if (/^https?:/.test(request.url())) externalRequests.push(request.url()); });
   const report = {mode: 'headless browser UI integration + manual screenshot review', browser: await browser.version(), episodes: [], errors, externalRequests};
-  report.sha256 = Object.fromEntries(['storyworld_reader.html', 'season-data.js'].map(file => [file, createHash('sha256').update(fs.readFileSync(path.join(season, file))).digest('hex')]));
+  report.sha256 = Object.fromEntries(['storyworld_reader.html', 'season-data.js', 'assets/pixel/pixel-stage.js', 'assets/pixel/legacy-scenes.js', 'recovery/original-pilot/build/sprites.js'].map(file => [file, createHash('sha256').update(fs.readFileSync(path.join(season, file))).digest('hex')]));
   try {
     await page.goto(pathToFileURL(path.join(season, 'storyworld_reader.html')).href);
     await page.locator('#loading-screen.hidden').waitFor({state: 'attached'});
@@ -38,6 +38,9 @@ const selected = process.argv.includes('--episode') ? Number(process.argv[proces
       await page.locator(`[data-episode="${n}"]`).click();
       assert.equal(await page.locator('.option-btn').count(), 3);
       await page.locator('#encounter-image').evaluate(img => img.decode());
+      assert(await page.locator('#pixel-theater').isVisible(), 'Recovered pixel theater must be active');
+      assert.deepEqual(await page.locator('#pixel-scene').evaluate(c => [c.width, c.height, c.getContext('2d').imageSmoothingEnabled]), [320, 180, false]);
+      assert(await page.locator('#pixel-voidt').evaluate(c => c.getContext('2d').getImageData(0,0,48,56).data.some(v => v > 0)), 'Original portrait must render');
       assert((await page.locator('#encounter-text').innerText()).split(/\s+/).length >= 50);
       await page.screenshot({path: path.join(screenshots, `episode-${String(n).padStart(2, '0')}-opening.png`), fullPage: true});
       const observed = [];

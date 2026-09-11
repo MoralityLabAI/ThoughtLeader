@@ -113,7 +113,7 @@ def compile_episode(draft):
     check_source(draft)
     number = draft["episode"]
     slug = f"episode-{number:02}"
-    image = f"assets/ep{number:02}.png"
+    image = f"assets/pixel/ep{number:02}.png"
     source_episode = 4 if number == 5 else number
     world = {
         "IFID": f"THOUGHTLEADER-S1-DRAFT-20260911-EP{number:02}",
@@ -134,6 +134,7 @@ def compile_episode(draft):
             "gptstoryworld_commit": UPSTREAM, "authoring_source": f"authored/{slug}.json",
             "recovery_source": None if number == 4 else f"recovery/episode-{source_episode:02}.json",
             "new_mechanics": True, "new_endings_prose": True, "new_art": True,
+            "art_status": "restored original indexed portraits and native scene grammar; six new pixel settings",
             "profile": "compact narrative draft; not a high-dimensional reasoning benchmark",
             "nudge_semantics": "clamp(current + amount, -1, 1), matching the checked-in GPTStoryworld reader",
             "cast": draft.get("cast", []), "counterfactual_cues": [s["id"] for s in draft["scenes"] if s["cue_tier"] == "counterfactual"],
@@ -279,14 +280,15 @@ def main():
     worlds = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((SEASON / "worlds").glob("episode-*.json"))]
     catalog = {"edition": "season1-draft-1", "episodes": [
         {"episode": w["reconstruction"]["episode"], "title": w["title"], "world": f"worlds/episode-{w['reconstruction']['episode']:02}.json",
-         "script": f"scripts/episode-{w['reconstruction']['episode']:02}.md", "image": f"assets/ep{w['reconstruction']['episode']:02}.png"}
+         "script": f"scripts/episode-{w['reconstruction']['episode']:02}.md", "image": f"assets/pixel/ep{w['reconstruction']['episode']:02}.png"}
         for w in worlds]}
     write_json(SEASON / "catalog.json", catalog)
     # A JS data bundle permits local file:// play with no fetch/CORS dependency.
     bundle = "window.THOUGHTLEADER_SEASON = " + json.dumps(worlds, ensure_ascii=False, separators=(",", ":")) + ";\n"
     (SEASON / "season-data.js").write_text(bundle, encoding="utf-8")
     fingerprinted = [*sorted((SEASON / "authored").glob("episode-*.json")), *sorted((SEASON / "worlds").glob("episode-*.json")), *sorted((SEASON / "scripts").glob("*.md")),
-                     SEASON / "season-data.js", SEASON / "catalog.json", SEASON / "storyworld_reader.html", Path(__file__).resolve()]
+                     SEASON / "season-data.js", SEASON / "catalog.json", SEASON / "storyworld_reader.html", Path(__file__).resolve(),
+                     *sorted((SEASON / "assets/pixel").glob("*.js")), SEASON / "assets/pixel/manifest.json"]
     write_json(SEASON / "reports" / "build.json", {"upstream_commit": UPSTREAM, "upstream_working_copy": True, "worlds": len(worlds),
         "sha256": {p.relative_to(ROOT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in fingerprinted}})
     write_json(VENDOR / "source-hashes.json", {"checkout_head": UPSTREAM, "working_copy_had_preexisting_changes": True,

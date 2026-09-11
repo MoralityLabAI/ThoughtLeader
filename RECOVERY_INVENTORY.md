@@ -40,6 +40,8 @@ The repository preserves the recovered file map and the original `.gitignore`. L
 
 ## Subsequent recovery and reconstruction — 2026-09-11
 
+**Additional discovery:** an intact earlier `patrickdugan/ThoughtLeader` checkout contains the original pilot, pixel sprites and theater renderer. Its 27 files are now preserved under `season1/recovery/original-pilot/`; see [the original-pilot recovery report](season1/recovery/ORIGINAL_PILOT_RECOVERY.md). The corruption findings above remain accurate for the E-drive dump, not for this newly located clean copy. Later episode 2–6 art is not in that earlier checkout; six new pixel settings extend its recovered visual system.
+
 The intact local GPTStoryworld checkout contains `thoughtleader.md`, a six-episode benchmark report, and corrected/diagnostic playtest logs. A reproducible extraction recovered 469 scene records from 1,639 observations, with 743 visible options and recovered reaction text for 515 options. Those records provide substantial authored prose, but not complete original branching rules, initial state, ending text or art.
 
 The author's revised order places the new incel-forum episode fourth and the recovered organized-crime material fifth. The original school-model episode is retained as source history. See [`season1/recovery/SUMMARY.md`](season1/recovery/SUMMARY.md) and the [`authoring contract`](season1/AUTHORING_CONTRACT.md). This discovery supersedes the earlier suggestion that only the Claude ZIP provenance could lead to usable content.

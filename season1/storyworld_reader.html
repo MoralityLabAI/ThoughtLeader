@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thought Leader · Season One</title>
   <script src="season-data.js"></script>
+  <script src="recovery/original-pilot/build/sprites.js"></script>
+  <script src="assets/pixel/legacy-scenes.js"></script>
+  <script src="assets/pixel/pixel-stage.js"></script>
   <style>
     * {
       margin: 0;
@@ -528,6 +531,18 @@
     #ending-content button { margin: 6px; }
     @media (max-width: 760px) { #season-catalog { grid-template-columns: 1fr; } .season-cast { max-height: 240px; } #title-screen { padding: 28px 18px; } }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+    body { font-family: 'Courier New', monospace; }
+    #title-screen h1 { font-size: clamp(2.1rem, 6vw, 4rem); letter-spacing: .02em; }
+    .season-cast, .episode-card img, #encounter-image { image-rendering: pixelated; object-fit: contain; }
+    #encounter-text, #reaction-text { font-family: 'Courier New', monospace; font-size: 16px; line-height: 1.7; }
+    #pixel-theater { max-width: 640px; margin: 0 auto 26px; border: 1px solid #46545a; background: #0e131b; }
+    #pixel-theater[hidden] { display: none; }
+    #pixel-scene { display: block; width: 100%; height: auto; image-rendering: pixelated; border-bottom: 1px solid #46545a; }
+    .pixel-cast { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 12px; }
+    .pixel-cast figure { margin: 0; display: flex; align-items: center; justify-content: center; gap: 12px; }
+    .pixel-cast canvas { width: 72px; height: 84px; image-rendering: pixelated; }
+    .pixel-cast figcaption { font: 12px/1.5 'Courier New', monospace; color: #c8bfa4; }
+    @media(max-width:600px) { .pixel-cast figure { flex-direction: column; gap: 6px; text-align: center; } }
   </style>
 </head>
 <body>
@@ -543,7 +558,7 @@
       <p class="eyebrow">Bureau for Emerging Threats · Season One · Draft</p>
       <h1 id="sw-title">Thought Leader</h1>
       <p class="about" id="sw-about">Every system has a human address. Six cases with Agents Kaitlyn Voidt and Dudley Lamport.</p>
-      <img class="season-cast" src="assets/cast.png" alt="Fictional investigators Kaitlyn Voidt and Dudley Lamport in the Bureau office">
+      <img class="season-cast" src="assets/pixel/cast.png" alt="Restored pixel portraits of investigators Kaitlyn Voidt and Dudley Lamport">
       <p class="season-note">Choose an episode. Each case starts with a neutral record and offers 18 scenes, consequential choices, and five possible findings. Completed findings stay in this browser's casebook; case statistics reset between episodes.</p>
       <button id="resume-case" class="utility" hidden>Resume current case</button>
       <div id="season-catalog" aria-label="Season One episodes"></div>
@@ -572,6 +587,13 @@
           </div>
 
           <div id="narrative-content">
+            <div id="pixel-theater" hidden aria-label="Pixel-art case theater">
+              <canvas id="pixel-scene" width="320" height="180" role="img" aria-label="Episode setting in restored adventure-game pixel style"></canvas>
+              <div class="pixel-cast">
+                <figure><canvas id="pixel-voidt" width="48" height="56" role="img" aria-label="Kaitlyn Voidt, restored portrait"></canvas><figcaption>KAITLYN<br>VOIDT</figcaption></figure>
+                <figure><canvas id="pixel-lamport" width="48" height="56" role="img" aria-label="Dudley Lamport, restored portrait"></canvas><figcaption>DUDLEY<br>LAMPORT</figcaption></figure>
+              </div>
+            </div>
             <img id="encounter-image" src="" alt="Scene illustration">
             <div id="encounter-text"></div>
             <div id="reaction-text" aria-live="polite"></div>
@@ -1108,7 +1130,7 @@
       for (const world of seasonWorlds) {
         const number = world.reconstruction.episode;
         const card = document.createElement('article'); card.className = 'episode-card';
-        const art = document.createElement('img'); art.src = `assets/ep${String(number).padStart(2, '0')}.png`; art.alt = `Illustration for ${world.title}`;
+        const art = document.createElement('img'); art.src = `assets/pixel/ep${String(number).padStart(2, '0')}.png`; art.alt = `Pixel-art setting for ${world.title}`;
         const title = document.createElement('h2'); title.textContent = world.title.replace('Thought Leader — ', '');
         const description = document.createElement('p'); description.textContent = world.about_text.split('\n\n')[0];
         const play = document.createElement('button'); play.className = 'demo-btn'; play.textContent = 'Open case'; play.dataset.episode = number; play.onclick = () => startGame(world);
@@ -1210,6 +1232,11 @@
       }
 
       // Hide reaction text
+      if (window.THOUGHTLEADER_PIXEL && engine.storyworld.reconstruction?.episode) {
+        window.THOUGHTLEADER_PIXEL.mount(engine.storyworld.reconstruction.episode);
+      } else {
+        document.getElementById('pixel-theater').hidden = true;
+      }
       elements.reactionText.classList.remove('visible');
 
       // Render options

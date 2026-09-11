@@ -19,7 +19,7 @@ The profile has eight case-record axes plus two actively used mutual-trust belie
 
 Choices change case statistics and state-dependent reactions, then rejoin the next scene. The final finding remains an explicit player decision; evidence, consent and mandate control access to its two conditional proposals. A proposal's availability does not prove that every earlier intervention succeeded. Remedy endings authorize future accountable work and retain the costs and limits of earlier choices.
 
-The illustrations are one shared cast image and one key-art image per episode. They are not recovered original art, a complete scene-by-scene illustration set, animated actors, voice performances or a spritesheet collection. The reader reuses each case's key art throughout that case.
+The active art is the restored Claude-era indexed portrait system plus six new native 320×180 settings, exported as seven pixel PNG cards. Recovered Voidt and Lamport portraits blink in the live theater; reduced-motion mode freezes the animation. The original eight-sprite data set and authoring sources are preserved, but the six current environments are new extrapolations. This is not a complete per-scene illustration set, walking-character system or voice performance. The previous generated noir art is archived rather than presented as restored art.
 
 ## Next editorial pass
 

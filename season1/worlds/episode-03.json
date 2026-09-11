@@ -193,7 +193,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_hall_o0",
@@ -2155,7 +2155,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_ground_o0",
@@ -4246,7 +4246,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_yusuf_o0",
@@ -6209,7 +6209,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_feed_o0",
@@ -8236,7 +8236,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_clock_o0",
@@ -10325,7 +10325,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_scholar_o0",
@@ -12387,7 +12387,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_chain_o0",
@@ -14415,7 +14415,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_circle_o0",
@@ -16499,7 +16499,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_wallet_o0",
@@ -18587,7 +18587,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_signer_o0",
@@ -20677,7 +20677,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_signal_o0",
@@ -22771,7 +22771,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_family_o0",
@@ -24832,7 +24832,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_measurements_o0",
@@ -26923,7 +26923,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_seams_o0",
@@ -28948,7 +28948,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_designation_o0",
@@ -31042,7 +31042,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_correction_o0",
@@ -33134,7 +33134,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_organizers_o0",
@@ -35096,7 +35096,7 @@
           }
         ]
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "options": [
         {
           "id": "page_case_close_o0",
@@ -39698,7 +39698,7 @@
         ],
         "coefficient": 1.0
       },
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "author_notes": {
         "source_ids": [],
         "text_status": "new",
@@ -39730,7 +39730,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "ending_kind": "calibrated",
       "author_notes": {
         "source_note": "new"
@@ -39761,7 +39761,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "ending_kind": "overreach",
       "author_notes": {
         "source_note": "new"
@@ -39792,7 +39792,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "ending_kind": "reductive",
       "author_notes": {
         "source_note": "new"
@@ -39823,7 +39823,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "ending_kind": "unresolved",
       "author_notes": {
         "source_note": "new"
@@ -39854,7 +39854,7 @@
         "coefficient": 1.0
       },
       "options": [],
-      "image": "assets/ep03.png",
+      "image": "assets/pixel/ep03.png",
       "ending_kind": "secret",
       "author_notes": {
         "source_note": "new"
@@ -39871,6 +39871,7 @@
     "new_mechanics": true,
     "new_endings_prose": true,
     "new_art": true,
+    "art_status": "restored original indexed portraits and native scene grammar; six new pixel settings",
     "profile": "compact narrative draft; not a high-dimensional reasoning benchmark",
     "nudge_semantics": "clamp(current + amount, -1, 1), matching the checked-in GPTStoryworld reader",
     "cast": [

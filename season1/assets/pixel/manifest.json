@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "method": "Restored indexed sprite data plus native Canvas scene painters; no AI raster generation, no resampling of the noir illustrations.",
+  "originalRepository": "https://github.com/patrickdugan/ThoughtLeader",
+  "originalCommit": "c8136095bb08e4b8a512560c8ca47e18b61f36b5",
+  "nativeSceneSize": [
+    320,
+    180
+  ],
+  "portraitSize": [
+    48,
+    56
+  ],
+  "assets": [
+    {
+      "file": "cast.png",
+      "relativePath": "season1/assets/pixel/cast.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 28669,
+      "sha256": "95e62b05995e3791c22ff418b0701e71634e972314a7b2d05fe8040777217298",
+      "status": "Recovered portraits composed over recovered office"
+    },
+    {
+      "file": "ep01.png",
+      "relativePath": "season1/assets/pixel/ep01.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 27141,
+      "sha256": "aef4694ff85d5ddc79610e55419f813be739bcb814a94cb85302d9c6ce76629b",
+      "status": "New native scene in recovered palette/renderer grammar"
+    },
+    {
+      "file": "ep02.png",
+      "relativePath": "season1/assets/pixel/ep02.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 26258,
+      "sha256": "06f9590db12e581226f2ab14a6a29c794d9ec39d59f989bf64d5bfdc2fc78bae",
+      "status": "New native scene in recovered palette/renderer grammar"
+    },
+    {
+      "file": "ep03.png",
+      "relativePath": "season1/assets/pixel/ep03.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 25187,
+      "sha256": "da027ae9ec134fefc9ee9f158533c90688238f96acefaa5dd9ac2236ce701438",
+      "status": "New native scene in recovered palette/renderer grammar"
+    },
+    {
+      "file": "ep04.png",
+      "relativePath": "season1/assets/pixel/ep04.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 24590,
+      "sha256": "ec7b77d409f45dd4ee1ae2c5e8668bf57ea52f5738b4a6aa29c365e772ecda1c",
+      "status": "New native scene in recovered palette/renderer grammar"
+    },
+    {
+      "file": "ep05.png",
+      "relativePath": "season1/assets/pixel/ep05.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 24469,
+      "sha256": "126ce851629a8023b3fb2092decb2405e1bcb788bfea8d78cea537379943533a",
+      "status": "New native scene in recovered palette/renderer grammar"
+    },
+    {
+      "file": "ep06.png",
+      "relativePath": "season1/assets/pixel/ep06.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 24493,
+      "sha256": "e73386fd330208d180f265851d54cd018ed7bf52e634dff430956f6b660ab660",
+      "status": "New native scene in recovered palette/renderer grammar"
+    }
+  ],
+  "sourceHashes": {
+    "season1/recovery/original-pilot/build/sprites.js": "d9f3e475894309dbb9d8550e74acedcb2634182d2938317001c585ecc7c2c088",
+    "season1/recovery/original-pilot/src/sprites.py": "046800dc70cea83f3d8a2bd66b8d64fafa56861084ed00741890fc5bdf199854",
+    "season1/recovery/original-pilot/src/roto.py": "200436eb77b6db1d03390751a0d6526e87ab4abffa1cb3b7e8ed3d2a97e2c142",
+    "season1/recovery/original-pilot/src/_levin_payload.json": "d8076b8b27f00661c0617d9f8218b13c3de55ad6dcfcab99d74ec1cd3863d0da",
+    "season1/recovery/original-pilot/frame-theater.html": "5b3b45edd10d382a82072b5b9e3e38ea05d160a12e42cd008c8bcbddb120c0ed",
+    "season1/recovery/original-pilot/character-sheet.html": "0f3bd3fc72bf1583eb4a553d07ff7e5f27551b89ce52c1d452eb226205d66666"
+  }
+}
