@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.claude/
+scratch/_*.json
+.DS_Store
+thought-leader.zip
+*Zone.Identifier
+
+# generated review artifacts (regenerate with sprites_ep2.py / scene-render.js)
+src/sheet*.png
+src/variants*.png
+src/actualsize*.png
+scratch/*.png
